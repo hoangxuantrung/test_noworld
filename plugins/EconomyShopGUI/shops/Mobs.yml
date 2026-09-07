@@ -1,0 +1,39 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: BONE
+        buy: 30.0
+        sell: 10.0
+      '2':
+        material: SLIME_BALL
+        buy: 100.0
+        sell: 50.0
+      '3':
+        material: GUNPOWDER
+        buy: 50.0
+        sell: 25.0
+      '4':
+        material: FEATHER
+        buy: 50.0
+        sell: 25.0
+      '5':
+        material: BLAZE_ROD
+        buy: 150.0
+        sell: 50.0
+      '6':
+        material: SPIDER_EYE
+        buy: 100.0
+        sell: 40.0
+      '7':
+        material: MAGMA_CREAM
+        buy: 100.0
+        sell: 50.0
+      '8':
+        material: STRING
+        buy: 30.0
+        sell: 15.0
+      '9':
+        material: LEATHER
+        buy: 50.0
+        sell: 15.0

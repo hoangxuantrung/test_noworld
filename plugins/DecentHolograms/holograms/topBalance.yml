@@ -1,0 +1,32 @@
+location: surlob:56.500:31.500:291.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+  - lines:
+      - content: TOP 10 TIỀN
+        height: 0.3
+      - content: "&61. &a%essentials_baltop_player_1%: #55AAFF%essentials_baltop_balance_formatted_1%"
+        height: 0.3
+      - content: "&62. &a%essentials_baltop_player_2%: #55AAFF%essentials_baltop_balance_formatted_2%"
+        height: 0.3
+      - content: "&63. &a%essentials_baltop_player_3%: #55AAFF%essentials_baltop_balance_formatted_3%"
+        height: 0.3
+      - content: "&64. &a%essentials_baltop_player_4%: #55AAFF%essentials_baltop_balance_formatted_4%"
+        height: 0.3
+      - content: "&65. &a%essentials_baltop_player_5%: #55AAFF%essentials_baltop_balance_formatted_5%"
+        height: 0.3
+      - content: "&66. &a%essentials_baltop_player_6%: #55AAFF%essentials_baltop_balance_formatted_6%"
+        height: 0.3
+      - content: "&67. &a%essentials_baltop_player_7%: #55AAFF%essentials_baltop_balance_formatted_7%"
+        height: 0.3
+      - content: "&68. &a%essentials_baltop_player_8%: #55AAFF%essentials_baltop_balance_formatted_8%"
+        height: 0.3
+      - content: "&69. &a%essentials_baltop_player_9%: #55AAFF%essentials_baltop_balance_formatted_9%"
+        height: 0.3
+      - content: "&610. &a%essentials_baltop_player_10%: #55AAFF%essentials_baltop_balance_formatted_10%"
+        height: 0.3
+    actions: {}

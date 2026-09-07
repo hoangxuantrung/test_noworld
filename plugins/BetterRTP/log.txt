@@ -1,0 +1,492 @@
+2026-08-27 01:12:44 [INFO]: Loading Overrides...
+2026-08-27 01:12:44 [INFO]: Loading World Types...
+2026-08-27 01:12:44 [INFO]: - World Type for 'lobby' set to 'NORMAL'
+2026-08-27 01:12:44 [INFO]: - World Type for 'WORLD' set to 'NORMAL'
+2026-08-27 01:12:44 [INFO]: - World Type for 'WORLD_nether' set to 'NETHER'
+2026-08-27 01:12:44 [INFO]: - World Type for 'WORLD_the_end' set to 'NORMAL'
+2026-08-27 01:12:44 [INFO]: Loading Defaults...
+2026-08-27 01:12:44 [INFO]: Loading Custom Worlds...
+2026-08-27 01:12:44 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2026-08-27 01:12:44 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2026-08-27 01:12:44 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2026-08-27 01:12:48 [INFO]: Database PLAYERS:Players configured and loaded!
+2026-08-27 01:12:48 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2026-08-27 01:12:48 [INFO]: Database COOLDOWN:WORLD configured and loaded!
+2026-08-27 01:12:48 [INFO]: Database COOLDOWN:WORLD_nether configured and loaded!
+2026-08-27 01:12:48 [INFO]: Database COOLDOWN:WORLD_the_end configured and loaded!
+2026-08-27 01:12:48 [INFO]: Database COOLDOWN:lobby configured and loaded!
+2026-08-27 01:12:48 [INFO]: Database COOLDOWN:surlob configured and loaded!
+2026-08-27 01:36:14 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 01:52:29 [INFO]: KhangNon executed: /betterrtp world WORLD
+2026-08-27 02:01:13 [INFO]: mingoc executed: /betterrtp world WORLD
+2026-08-27 02:14:48 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:16:07 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:16:36 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:16:58 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:17:37 [INFO]: KhangNon executed: /betterrtp world WORLD
+2026-08-27 02:18:16 [INFO]: KhangNon executed: /betterrtp world WORLD
+2026-08-27 02:18:27 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:22:22 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:25:06 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:25:09 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:26:27 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:28:36 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:29:24 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:29:48 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:30:18 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:30:48 [INFO]: KhangNon executed: /betterrtp world WORLD
+2026-08-27 02:31:18 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:32:09 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:32:13 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:33:28 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:33:31 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 02:35:09 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:35:29 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:36:04 [INFO]: fallintoempty executed: /betterrtp world WORLD_nether
+2026-08-27 02:43:27 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 02:44:23 [INFO]: fallintoempty executed: /betterrtp world WORLD_nether
+2026-08-27 02:49:45 [INFO]: CONSOLE executed: /rtp player fallintoempty WORLD_nether
+2026-08-27 02:59:39 [INFO]: CONSOLE executed: /rtp player fallintoempty WORLD_nether
+2026-08-27 06:01:00 [INFO]: _WightD_ executed: /betterrtp world WORLD
+2026-08-27 07:44:28 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 08:25:10 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 08:42:26 [INFO]: hanhyort executed: /betterrtp world WORLD
+2026-08-27 10:02:47 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-27 10:09:18 [INFO]: CONSOLE executed: /rtp player senfifai WORLD_the_end
+2026-08-27 10:10:56 [INFO]: senfifai executed: /betterrtp world WORLD_nether
+2026-08-27 10:25:35 [INFO]: tysooon executed: /betterrtp world WORLD
+2026-08-27 10:26:52 [INFO]: BuiHoangAnh executed: /betterrtp world WORLD
+2026-08-27 11:06:05 [INFO]: Kixnz executed: /betterrtp world WORLD
+2026-08-27 11:06:14 [INFO]: Kixnz executed: /betterrtp world WORLD
+2026-08-27 11:10:37 [INFO]: Kixnz executed: /betterrtp world WORLD
+2026-08-27 11:47:27 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 12:13:47 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 12:55:27 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 12:56:01 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 13:06:22 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 13:13:49 [INFO]: huy504689 executed: /rtp help
+2026-08-27 13:13:52 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 13:14:06 [INFO]: CONSOLE executed: /rtp player HappyBoiz2009 WORLD_the_end
+2026-08-27 13:19:39 [INFO]: Kixnz executed: /betterrtp world WORLD
+2026-08-27 13:21:14 [INFO]: Kixnz executed: /betterrtp world WORLD
+2026-08-27 13:28:39 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 13:40:29 [INFO]: Kixnz executed: /betterrtp world WORLD_nether
+2026-08-27 13:49:25 [INFO]: Kixnz executed: /betterrtp world WORLD
+2026-08-27 13:52:09 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 14:07:02 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 14:18:26 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:28:23 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:33:34 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:33:40 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 14:35:23 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:36:12 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:36:39 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:41:31 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:42:34 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:46:06 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:47:49 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:52:22 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-27 14:59:30 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 15:04:44 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 15:46:15 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-27 16:07:17 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-27 16:11:57 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-27 19:44:12 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 19:44:31 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 19:47:16 [INFO]: CONSOLE executed: /rtp player HydraMC_YTB WORLD_the_end
+2026-08-27 19:48:15 [INFO]: CONSOLE executed: /rtp player HydraMC_YTB WORLD_the_end
+2026-08-27 20:21:11 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 20:23:50 [INFO]: senfifai executed: /betterrtp world WORLD_nether
+2026-08-27 20:28:24 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 20:31:24 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 20:31:48 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 20:49:28 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 20:51:00 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 20:57:51 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-27 21:04:38 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-27 21:09:33 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-27 21:13:53 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-27 21:15:43 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-27 21:16:59 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-27 21:20:44 [INFO]: CONSOLE executed: /rtp player badluck_7th9 WORLD_nether
+2026-08-27 21:23:00 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-27 21:42:07 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 21:48:38 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-27 21:52:55 [WARNING]: Seems like the world `surlob` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- surlob: NETHER`
+2026-08-27 21:53:08 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-27 21:53:13 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-27 21:53:33 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-27 21:54:33 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-27 21:55:55 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 21:58:31 [INFO]: XinDungBanNx executed: /betterrtp world WORLD
+2026-08-27 22:04:28 [INFO]: CONSOLE executed: /rtp player huy504689 WORLD_nether
+2026-08-27 22:25:22 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-27 22:28:07 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-27 22:32:02 [INFO]: ShentoSyney_VN executed: /betterrtp world WORLD
+2026-08-27 22:32:02 [INFO]: tysooon executed: /betterrtp world WORLD
+2026-08-27 22:32:11 [INFO]: ShentoSyney_VN executed: /betterrtp world WORLD
+2026-08-27 22:32:14 [INFO]: tysooon executed: /betterrtp world WORLD
+2026-08-27 23:00:28 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-27 23:11:01 [INFO]: fallintoempty executed: /betterrtp world WORLD
+2026-08-28 03:34:03 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-28 03:42:23 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 03:45:06 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 03:45:26 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 03:45:32 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 03:45:34 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 03:45:48 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 04:03:11 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 07:18:14 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-28 07:31:14 [INFO]: yguy executed: /rtp world
+2026-08-28 07:31:18 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-28 07:52:51 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-28 07:56:12 [INFO]: CONSOLE executed: /rtp player yguy WORLD_nether
+2026-08-28 09:19:44 [INFO]: senfifai executed: /betterrtp world WORLD_nether
+2026-08-28 09:47:16 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 09:50:27 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 09:50:32 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 11:07:31 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 11:13:44 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 11:54:27 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 11:59:49 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 12:09:02 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 12:26:52 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 12:52:12 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-28 12:55:37 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-28 13:07:45 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-28 13:12:23 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-28 14:28:08 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 14:30:38 [INFO]: popkits executed: /betterrtp world WORLD
+2026-08-28 14:54:30 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-28 14:54:53 [INFO]: CONSOLE executed: /rtp player yguy WORLD_nether
+2026-08-28 14:57:21 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-28 15:23:10 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 15:32:15 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-28 15:40:08 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-28 15:45:44 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-28 16:25:22 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 16:26:35 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 16:28:18 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 16:28:22 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 16:28:26 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 16:28:29 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 17:11:54 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-28 17:17:14 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-28 18:07:35 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 18:52:52 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 19:04:17 [INFO]: CelinDang executed: /betterrtp world WORLD
+2026-08-28 19:36:07 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-28 19:43:25 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-28 19:51:32 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-28 19:56:51 [INFO]: yguy_1 executed: /betterrtp world WORLD
+2026-08-28 19:59:24 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-28 21:15:08 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-28 21:43:54 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-28 22:06:58 [INFO]: ShentoSyney_VN executed: /betterrtp world WORLD
+2026-08-28 22:07:00 [INFO]: quocbaobui executed: /betterrtp world WORLD
+2026-08-28 22:07:18 [INFO]: quocbaobui executed: /betterrtp world WORLD
+2026-08-28 23:03:00 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-28 23:06:43 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-28 23:21:22 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-29 03:57:42 [INFO]: ShentoSyney_VN executed: /rtp world
+2026-08-29 03:57:55 [INFO]: ShentoSyney_VN executed: /betterrtp world WORLD
+2026-08-29 08:29:15 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-29 08:30:13 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-29 09:32:52 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-29 09:40:29 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-29 09:42:57 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-29 09:48:08 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-29 09:53:48 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-29 10:43:30 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-29 11:02:23 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-29 12:46:58 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD_nether
+2026-08-29 12:59:35 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-29 13:10:20 [INFO]: CONSOLE executed: /rtp player yguy WORLD_nether
+2026-08-29 13:21:57 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-29 13:24:38 [INFO]: CONSOLE executed: /rtp player yguy WORLD_nether
+2026-08-29 13:25:12 [INFO]: CONSOLE executed: /rtp player yguy WORLD_nether
+2026-08-29 13:31:00 [INFO]: CONSOLE executed: /rtp player yguy WORLD_nether
+2026-08-29 13:32:43 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD_nether
+2026-08-29 13:48:53 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-29 13:51:17 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-29 13:52:24 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-29 14:15:45 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-08-29 14:17:05 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-29 14:21:55 [INFO]: tuanduong000 executed: /betterrtp world WORLD
+2026-08-29 14:25:48 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-29 19:05:20 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-29 19:21:37 [INFO]: suclo executed: /betterrtp world WORLD
+2026-08-29 19:29:41 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-29 19:33:56 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-08-29 19:35:58 [INFO]: TanThuyNgan executed: /betterrtp world WORLD
+2026-08-29 19:36:25 [INFO]: TanThuyNgan executed: /betterrtp world WORLD
+2026-08-29 20:38:34 [INFO]: Rtex_MC executed: /betterrtp world WORLD
+2026-08-29 20:45:35 [INFO]: huy504689 executed: /betterrtp world WORLD
+2026-08-29 20:47:32 [INFO]: Rtex_MC executed: /betterrtp world WORLD_nether
+2026-08-29 20:54:25 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD_nether
+2026-08-29 20:56:06 [INFO]: Rtex_MC executed: /betterrtp world WORLD
+2026-08-29 20:57:36 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-29 21:17:10 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-29 21:35:59 [INFO]: Rtex_MC executed: /betterrtp world WORLD
+2026-08-29 21:36:17 [INFO]: Rtex_MC executed: /betterrtp world WORLD
+2026-08-29 21:36:24 [INFO]: Rtex_MC executed: /betterrtp world WORLD
+2026-08-29 21:47:33 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD_nether
+2026-08-29 22:16:09 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-29 22:19:39 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-29 22:19:45 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-29 22:37:25 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-29 22:48:13 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-29 22:48:30 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-29 22:48:56 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-30 10:19:07 [INFO]: senfifai executed: /betterrtp world WORLD_nether
+2026-08-30 10:29:26 [INFO]: senfifai executed: /betterrtp world WORLD_nether
+2026-08-30 14:50:51 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-30 16:56:06 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-30 18:16:29 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD_nether
+2026-08-30 18:27:48 [INFO]: CONSOLE executed: /rtp player HappyBoiz2009 WORLD_nether
+2026-08-30 18:38:42 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD_nether
+2026-08-30 19:07:04 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-30 19:26:07 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-30 21:11:04 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-30 21:11:15 [INFO]: yguy executed: /betterrtp world WORLD_nether
+2026-08-30 22:24:23 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-30 22:27:47 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-30 22:29:01 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-30 22:30:45 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-30 22:31:53 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-30 22:32:57 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-30 22:40:24 [INFO]: yguy executed: /betterrtp world WORLD
+2026-08-30 22:47:34 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-30 22:48:29 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 10:12:15 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:17:31 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:19:09 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:21:37 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:22:26 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:23:00 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:23:09 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:23:20 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:23:40 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:23:57 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:24:13 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:24:21 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:24:30 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:24:34 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:24:37 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:24:42 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:28:14 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:30:36 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 10:43:30 [INFO]: senfifai executed: /betterrtp world WORLD_nether
+2026-08-31 11:22:09 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 11:27:48 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 12:58:01 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:01:48 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:03:26 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:05:58 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:07:01 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:08:19 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:08:36 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:08:50 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:08:55 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:09:03 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 13:11:08 [INFO]: badluck_7th9 executed: /betterrtp world WORLD
+2026-08-31 15:23:04 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 15:38:06 [INFO]: kuoy executed: /betterrtp world WORLD
+2026-08-31 15:38:53 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-31 15:39:09 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 15:39:13 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 15:39:44 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 15:58:59 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-31 16:02:03 [INFO]: senfifai executed: /betterrtp world WORLD
+2026-08-31 16:03:58 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 16:19:26 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 16:20:52 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 16:21:41 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 16:24:06 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 16:26:30 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 16:27:57 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 16:36:03 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD_nether
+2026-08-31 16:38:33 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-31 16:39:13 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-08-31 16:50:46 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 17:30:57 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 17:33:23 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 17:34:15 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 17:39:29 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 19:41:36 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 19:45:19 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-08-31 19:58:14 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 19:58:20 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 19:59:41 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 20:04:31 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-08-31 22:49:44 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-08-31 22:55:40 [INFO]: baonam3321 executed: /betterrtp world WORLD
+2026-09-01 00:35:37 [INFO]: CONSOLE executed: /rtp player HydraMC_YTB WORLD_the_end
+2026-09-01 01:54:02 [INFO]: HydraMC_YTB executed: /betterrtp world WORLD
+2026-09-01 06:35:43 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-09-01 06:41:37 [INFO]: Newbie123 executed: /betterrtp world WORLD_nether
+2026-09-01 10:05:27 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-01 10:05:37 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-01 10:15:34 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-01 12:56:27 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-09-01 13:07:38 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-09-01 13:16:18 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD_nether
+2026-09-01 13:19:54 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD_nether
+2026-09-01 13:20:24 [INFO]: CONSOLE executed: /rtp player HappyBoiz2009 WORLD_nether
+2026-09-01 13:20:46 [INFO]: CONSOLE executed: /rtp player HappyBoiz2009 WORLD_nether
+2026-09-01 14:21:44 [INFO]: Newbie123 executed: /betterrtp world WORLD_nether
+2026-09-01 14:37:32 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-01 14:53:44 [INFO]: lonely353 executed: /betterrtp world WORLD
+2026-09-01 14:54:16 [INFO]: hanhyort executed: /betterrtp world WORLD
+2026-09-01 14:55:23 [INFO]: hanhyort executed: /betterrtp world WORLD
+2026-09-01 15:24:01 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-09-01 15:24:10 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-09-01 15:32:08 [INFO]: HappyBoiz2009 executed: /betterrtp world WORLD
+2026-09-01 16:38:27 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:43:32 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:11 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:15 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:30 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:31 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:32 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:33 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:34 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:36 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 16:46:40 [INFO]: newbie199 executed: /betterrtp world WORLD
+2026-09-01 17:46:06 [INFO]: Newbie123 executed: /betterrtp world WORLD_nether
+2026-09-01 18:47:15 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-01 19:41:52 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-01 21:54:53 [INFO]: TamXoan executed: /betterrtp world WORLD
+2026-09-01 22:00:14 [INFO]: TuanKiet executed: /betterrtp world WORLD
+2026-09-01 22:07:10 [INFO]: TamXoan executed: /betterrtp world WORLD
+2026-09-01 22:07:31 [INFO]: TamXoan executed: /betterrtp world WORLD
+2026-09-01 22:42:24 [INFO]: TamXoan executed: /betterrtp world WORLD
+2026-09-02 08:05:32 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-09-02 08:05:39 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-09-02 09:12:56 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-09-02 10:25:16 [INFO]: Newbie123 executed: /betterrtp world WORLD_nether
+2026-09-02 10:25:18 [INFO]: Newbie123 executed: /betterrtp world WORLD_nether
+2026-09-02 13:18:05 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-09-02 15:09:54 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-02 15:19:24 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-09-02 16:12:14 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-02 17:27:25 [INFO]: tysooon executed: /betterrtp world WORLD
+2026-09-02 17:28:05 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-09-02 17:28:09 [INFO]: Newbie123 executed: /betterrtp world WORLD
+2026-09-02 20:23:42 [INFO]: popkits executed: /betterrtp world WORLD
+2026-09-02 20:41:03 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-02 20:41:07 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-02 20:42:47 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-02 21:00:42 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:20:46 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:32:06 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:37:23 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:38:30 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:38:33 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:39:20 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:40:02 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:40:24 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:40:27 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:40:28 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:40:30 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:57:36 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 21:57:40 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 22:00:24 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 22:00:28 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-02 22:00:57 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 08:49:27 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-03 10:16:02 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-03 10:16:08 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-03 18:37:07 [INFO]: chingchong executed: /betterrtp world WORLD
+2026-09-03 18:53:49 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 18:59:18 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 19:18:14 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 19:18:18 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 19:18:23 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 20:56:23 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:04:44 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:04:48 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:18:22 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:23:13 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:29:31 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:38:03 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:43:37 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:46:25 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:46:29 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:46:58 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 21:57:55 [INFO]: huy504689 executed: /betterrtp world WORLD_nether
+2026-09-03 21:59:38 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:00:33 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:04:05 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:05:29 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:05:32 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:05:56 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:05:58 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:07:00 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:13:36 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:17:52 [INFO]: Buzz executed: /betterrtp world WORLD_nether
+2026-09-03 22:18:05 [INFO]: CONSOLE executed: /rtp player Buzz WORLD_the_end
+2026-09-03 22:26:08 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:27:40 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:28:05 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:29:08 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:29:14 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:29:19 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:44:46 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 22:55:36 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 23:01:34 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-03 23:03:06 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-04 09:28:35 [INFO]: hanhyort executed: /betterrtp world WORLD
+2026-09-04 12:54:19 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-04 13:17:48 [INFO]: CONSOLE executed: /rtp player MinhAnh_112 WORLD_nether
+2026-09-04 13:39:21 [INFO]: CONSOLE executed: /rtp player MinhAnh_112 WORLD_nether
+2026-09-04 13:39:28 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-04 13:39:33 [INFO]: CONSOLE executed: /rtp player MinhAnh_112 WORLD_nether
+2026-09-04 16:08:49 [INFO]: CONSOLE executed: /rtp player MinhAnh_112 WORLD_nether
+2026-09-04 17:02:04 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-04 17:03:39 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-04 17:16:52 [INFO]: CONSOLE executed: /rtp player MinhAnh_112 WORLD_nether
+2026-09-04 17:24:17 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-04 17:24:21 [INFO]: CONSOLE executed: /rtp player MinhAnh_112 WORLD_nether
+2026-09-04 17:36:46 [INFO]: tysooon executed: /betterrtp world WORLD
+2026-09-04 17:52:38 [INFO]: ledangvietanh executed: /betterrtp world WORLD
+2026-09-04 18:12:09 [INFO]: ledangvietanh executed: /betterrtp world WORLD
+2026-09-04 18:26:15 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-04 23:53:34 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-05 00:02:07 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-05 10:27:23 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-05 10:30:28 [INFO]: CONSOLE executed: /rtp player Buzz WORLD_nether
+2026-09-05 10:38:33 [INFO]: Buzz executed: /betterrtp world WORLD
+2026-09-05 10:54:46 [INFO]: CONSOLE executed: /rtp player MinhAnh_112 WORLD_nether
+2026-09-05 10:55:27 [INFO]: CONSOLE executed: /rtp player MinhAnh_112 WORLD_nether
+2026-09-05 11:01:52 [INFO]: CONSOLE executed: /rtp player Buzz WORLD_nether
+2026-09-05 11:13:31 [INFO]: CONSOLE executed: /rtp player Buzz WORLD_the_end
+2026-09-05 11:18:31 [INFO]: CONSOLE executed: /rtp player Buzz WORLD_nether
+2026-09-05 11:30:37 [INFO]: CONSOLE executed: /rtp player Buzz WORLD_nether
+2026-09-05 11:35:04 [INFO]: Buzz executed: /rtp help
+2026-09-05 12:05:33 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-05 12:21:34 [INFO]: CONSOLE executed: /rtp player Buzz WORLD_nether
+2026-09-05 15:45:03 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-05 15:45:10 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-05 15:45:33 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-05 15:47:03 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-05 16:22:33 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-05 16:22:56 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-05 16:59:22 [INFO]: tysooon executed: /betterrtp world WORLD
+2026-09-05 18:53:20 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-05 20:11:21 [INFO]: TienHuy executed: /betterrtp world WORLD
+2026-09-05 20:16:11 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-05 20:16:36 [INFO]: KhangNon executed: /betterrtp world WORLD
+2026-09-05 20:21:15 [INFO]: KhangNon executed: /betterrtp world WORLD
+2026-09-05 20:21:43 [INFO]: KhangNon executed: /betterrtp world WORLD
+2026-09-05 22:01:51 [INFO]: TuanKiet executed: /betterrtp world WORLD
+2026-09-05 22:31:19 [INFO]: TuanKiet executed: /betterrtp world WORLD
+2026-09-06 10:07:37 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-06 10:09:58 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-06 10:10:16 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-06 10:10:27 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-06 10:11:25 [INFO]: MinhAnh_112 executed: /betterrtp world WORLD
+2026-09-06 12:27:25 [INFO]: danhz executed: /rtp world
+2026-09-06 12:27:30 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-06 14:34:34 [INFO]: danhz executed: /betterrtp world WORLD
+2026-09-06 16:11:34 [INFO]: Disabling BetterRTP v3.6.13

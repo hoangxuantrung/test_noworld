@@ -1,0 +1,32 @@
+# FakeSeed Configuration
+# Show a random or predefined seed when players use /seed command
+
+# If true, will generate random seed numbers
+# If false, will use seeds from custom-seeds list
+use-random-seed: true
+
+# List of custom seeds to display (only used if use-random-seed is false)
+# Can be numbers or text
+custom-seeds:
+  - "12345678901234567"
+  - "-98765432109876543"
+  - "42424242424242"
+
+# Message shown when displaying the seed
+# Use %seed% to include the seed value
+# Color codes with & are supported
+seed-message: "&e&lWorld Seed: &f%seed%"
+
+# Should the plugin intercept the /seed command?
+# If false, you'll need to set up command aliasing in your server
+intercept-command: true
+
+# Occasionally show "no seed available" message instead of a seed
+use-no-seed-message: true
+
+# Message to show when "no seed available" is triggered
+no-seed-message: "&c&lNo seed information is available for this world"
+
+# Chance (in percent) to show the "no seed available" message
+# Range: 0-100
+percent-chance-no-seed: 15

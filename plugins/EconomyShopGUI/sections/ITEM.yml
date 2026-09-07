@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: SHULKER_BOX
+  displayname: ITEM
+slot: 5

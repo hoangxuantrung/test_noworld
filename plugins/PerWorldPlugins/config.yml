@@ -1,0 +1,172 @@
+# PerWorldPlugins Configuration
+
+# Disable or Enable the message of new updates.
+updateChecker: true
+# Disable or Enable the bStats metrics.
+metrics: true
+# Message send when execute blocked plugin command.
+disabledCommandMessage: '&4[Server]: &f{player} this command is disabled for {world}.'
+
+# If false, the plugins/groups added in the world will work.
+# If true, it will be reversed.
+blacklist: true
+
+plugins:
+  # For set group set - g:example (example is the name of group)
+  # Add and edit groups in the groups.yml
+  # ":ignore" is for ignore this plugin and don't check this.
+  # In the Example case, the plugin is blocked in "world" (If is the blacklist on true)
+  Example:
+  - world
+  luckperms:
+  - NEW_HORIZON
+  vault:
+  - :ignore
+  worldedit:
+  - :ignore
+  essentials:
+  - :ignore
+  worldguard:
+  - NEW_HORIZON
+  - NEW_HORIZON_nether
+  - NEW_HORIZON_the_end
+  essentialsspawn:
+  - :ignore
+  placeholderapi:
+  - :ignore
+  bkcommonlib:
+  - :ignore
+  essentialschat:
+  - :ignore
+  authme:
+  - :ignore
+  my_worlds:
+  - :ignore
+  nightcore:
+  - :ignore
+  decentholograms:
+  - :ignore
+  jumppads:
+  - :ignore
+  deluxemenus:
+  - :ignore
+  timemanager:
+  - :ignore
+  tab:
+  - :ignore
+  skinsrestorer:
+  - :ignore
+  iris:
+  - :ignore
+  economyshopgui:
+  - :ignore
+  authmeui:
+  - :ignore
+  betterrtp:
+  - :ignore
+  axvaults:
+  - :ignore
+  citizens:
+  - :ignore
+  excellentcrates:
+  - :ignore
+  invseeplusplus:
+  - :ignore
+  enderchest:
+  - :ignore
+  farmprotection:
+  - :ignore
+  auraskills:
+  - :ignore
+  supervanish:
+  - :ignore
+  zmenu:
+  - :ignore
+  azauctions:
+  - :ignore
+  autorank:
+  - :ignore
+  veinminer:
+  - :ignore
+  gcore:
+  - :ignore
+  customcommands:
+  - :ignore
+  foxaddition:
+  - :ignore
+  grimac:
+  - :ignore
+  gsit:
+  - :ignore
+  mycommand:
+  - :ignore
+  packetevents:
+  - :ignore
+  auctionhouse:
+  - :ignore
+  raycastedantiesp:
+  - :ignore
+  blueslimecore:
+  - :ignore
+  combatlogx:
+  - :ignore
+  protocollib:
+  - :ignore
+  combatlog:
+  - :ignore
+  excellentenchants:
+  - :ignore
+  clans:
+  - :ignore
+  servermotd:
+  - :ignore
+  simpleclans:
+  - :ignore
+  discordsrv:
+  - :ignore
+  images:
+  - :ignore
+  playerstats:
+  - :ignore
+  fozminetimeditem:
+  - :ignore
+  coreprotect:
+  - :ignore
+  lpc:
+  - :ignore
+  imageemojis:
+  - :ignore
+  gravesx:
+  - :ignore
+  betterstructures:
+  - :ignore
+  chunky:
+  - :ignore
+  commandfee:
+  - :ignore
+  commandcost:
+  - :ignore
+  xshards:
+  - :ignore
+  dynmap:
+  - :ignore
+  worldborder:
+  - :ignore
+  voicechat:
+  - :ignore
+  advancedredeem:
+  - :ignore
+  piecloak:
+  - :ignore
+  chunkveil:
+  - :ignore
+  playerculling:
+  - :ignore
+  nbtapi:
+  - :ignore
+  fakeseed:
+  - :ignore
+  mysqlplayerbridge:
+  - :ignore
+  clearlag:
+  - :ignore

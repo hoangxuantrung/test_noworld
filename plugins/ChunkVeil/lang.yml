@@ -1,0 +1,154 @@
+prefix: "&3[ChunkVeil] &7"
+
+states:
+  enabled: "&aenabled"
+  disabled: "&cdisabled"
+
+badges:
+  ok: "&a[OK]"
+  warn: "&e[WARN]"
+  fail: "&c[FAIL]"
+  info: "&b[INFO]"
+
+warnings:
+  protection-inactive-join:
+    - "&c&lChunkVeil protection is NOT active on this server."
+    - "&7Reason: &c{reason}"
+    - "&7Underground data is currently sent unprotected. Run &f/chunkveil compat &7for diagnostics."
+
+commands:
+  no-permission: "&cYou do not have permission."
+  version: "Version &f{version}"
+
+  help:
+    no-commands: "&cYou do not have access to any ChunkVeil commands."
+    unknown-command: "&cUnknown command. Available commands:"
+    status: "/{label} status"
+    verify: "/{label} verify"
+    inspect: "/{label} inspect <player>"
+    report: "/{label} report <public|full>"
+    predict: "/{label} predict <players> <ramGb> <cpuTier> [viewDistance]"
+    update: "/{label} update"
+    reload: "/{label} reload [--check]"
+    refresh: "/{label} refresh"
+    disable: "/{label} disable"
+    enable: "/{label} enable"
+    debug: "/{label} debug <on|off>"
+    version: "/{label} version"
+
+  status:
+    title: "&3&m                                "
+    heading: "&bChunkVeil Status"
+    section-runtime: "&8- &3Runtime"
+    section-compat: "&8- &3Compatibility"
+    section-worlds: "&8- &3Worlds"
+    section-players: "&8- &3Players & Queues"
+    section-protection: "&8- &3Protection Counters"
+    section-updates: "&8- &3Update & Entity Counters"
+    section-timings: "&8- &3Timing Metrics"
+    runtime: "{badge} &7Runtime: {state}"
+    disabled-reason: "{badge} &7Disabled reason: &c{reason}"
+    debug: "{badge} &7Debug logging: {state}"
+    listener: "{badge} &7ProtocolLib listener: {state}"
+    rewrite: "{badge} &7Raw chunk packet rewrite: {state}"
+    worlds-enabled: "{badge} &7Enabled worlds: &f{worlds}"
+    world-overrides: "{badge} &7Configured world entries: &f{worlds}"
+    tracked: "{badge} &7Tracked players: &f{players}"
+    queued: "{badge} &7Queued chunk updates: &f{chunks}"
+    chunk-packets-total: "{badge} &7Chunk packets seen: &f{packets}"
+    chunk-packets-hidden: "{badge} &7Hidden chunk packets: &f{hidden}"
+    chunk-packets-rewritten: "{badge} &7Rewritten hidden chunks: &f{rewritten}"
+    chunk-packets-unrewritten: "{badge} &7Unrewritten hidden chunks: &f{unrewritten}"
+    updates-block: "{badge} &7Block changes rewritten: &f{block}"
+    updates-multi: "{badge} &7Multi-block changes rewritten: &f{multi}"
+    updates-block-entities: "{badge} &7Block entity updates cancelled: &f{block_entities}"
+    entities: "{badge} &7Entity spawns cancelled: &f{spawns}&7, follow-up packets cancelled: &f{packets}"
+    secondary-packets: "{badge} &7Secondary protection: explosions=&f{explosions}&7, events=&f{events}&7, cracks=&f{cracks}&7, sounds=&f{sounds}&7, particles=&f{particles}&7, vibrations=&f{vibrations}&7, light=&f{light}&7, quarantined=&f{security}"
+    timing: "{badge} &7{metric}: avg=&f{avg}ms&7, max=&f{max}ms&7, samples=&f{samples}"
+
+  verify:
+    title: "&3&m                                "
+    heading: "&bChunkVeil Verify"
+    section-critical: "&8- &3Critical Checks"
+    section-server: "&8- &3Server"
+    section-worlds: "&8- &3Worlds"
+    section-secondary: "&8- &3Secondary Packet Protection"
+    section-plugins: "&8- &3Other Packet Plugins"
+    section-config: "&8- &3Config Validation"
+    line: "{badge} &7{text}"
+    verdict-pass: "&a&lVERDICT: PASS &8- &7Protection is active and configured."
+    verdict-warn: "&e&lVERDICT: WARN &8- &7Protection is active with &f{warnings}&7 warning(s). Review the lines above."
+    verdict-fail: "&c&lVERDICT: FAIL &8- &cThis server is NOT protected. Fix the failed checks above."
+    report-hint: "&7Use &f/chunkveil report &7to write a copyable diagnostic file."
+
+  inspect:
+    title: "&3&m                                "
+    heading: "&bChunkVeil Player Inspect"
+    usage: "&cUsage: &f/chunkveil inspect <player>"
+    not-found: "&cPlayer not found: &f{player}"
+    disabled: "{badge} &7Runtime is disabled. Showing available player/server state only."
+    player: "{badge} &7Player: &f{player}"
+    world: "{badge} &7World: &f{world}"
+    bypass: "{badge} &7Bypass permission: {state}"
+    client-view-distance: "{badge} &7Client view distance: &f{distance}"
+    effective-scan-radius: "{badge} &7Effective scan radius: &f{radius} chunks"
+    visible-chunks: "{badge} &7Visible chunks: &f{chunks}"
+    queued-chunks: "{badge} &7Queued chunk updates: &f{chunks}"
+    hidden-entities: "{badge} &7Hidden entities: &f{entities}"
+    last-scan: "{badge} &7Last reveal scan: &f{age}"
+    current-chunk: "{badge} &7Current chunk state: &f{state}"
+
+  report:
+    created: "Diagnostic report created: &f{file}"
+    failed: "&cCould not create diagnostic report: {reason}"
+
+  predict:
+    title: "&3&m                                "
+    heading: "&bChunkVeil Experimental Workload Estimate"
+    disclaimer: "{badge} &eExperimental estimate based on current-session timings and fixed activity assumptions. This is not a guaranteed player capacity."
+    usage: "&cUsage: &f/chunkveil predict <players> <ramGb> <cpuTier> [viewDistance]&7. cpuTier is single-core strength: &flow&7, &fmid&7, &fhigh&7, or &ftop&7. Prediction needs live timing samples first."
+    not-ready: "{badge} &cNot enough live timing data yet. Move players around, load chunks, then try again."
+    samples: "{badge} &7Samples: reveal=&f{reveal}&7/&f{required_reveal}&7, chunkUpdateMask=&f{chunk_mask}&7/&f{required_chunk_mask}&7, entity=&f{entity}&7/&f{required_entity}&7, queue=&f{queue}&7/&f{required_queue}"
+    input: "{badge} &7Input: &f{players} players&7, &f{ram}GB RAM&7, CPU tier &f{cpu_tier}&7, view distance &f{view_distance}"
+    estimate: "{badge} &7Estimated ChunkVeil CPU load: &f{load}%"
+    tick-cost: "{badge} &7Estimated main-tick budget use: &f{tick}ms / 50ms"
+    memory: "{badge} &7RAM headroom: &f{memory}"
+    confidence: "{badge} &7Confidence: &f{confidence}"
+    assumptions: "{badge} &7Assumptions: &fperiodic entity scans, representative average timings, and similar world/player activity"
+    recommendation: "{badge} &7Recommendation: &f{recommendation}"
+
+  update:
+    checking: "Checking for updates..."
+    disabled: "The update checker is disabled in config.yml."
+    up-to-date: "You are running the latest version (&f{version}&7) for Minecraft &f{mc}&7."
+    available: "&eUpdate available: &f{latest}&7 (current: &f{current}&7) for Minecraft &f{mc}&7."
+    notes: "Notes: &f{notes}"
+    link: "&bDownload: &f&n{url}"
+    link-hover: "&7Click to open the download page"
+    failed: "&cUpdate check failed: {reason}"
+
+  reload: "Reloaded config and language, then refreshed online players."
+
+  reload-check:
+    heading: "&bChunkVeil Config Check &7(dry run, nothing applied)"
+    ok: "{badge} &7config.yml parsed successfully."
+    syntax-error: "{badge} &cconfig.yml has a syntax error: &f{reason}"
+    warning: "{badge} &e{warning}"
+    no-warnings: "{badge} &7No validation warnings."
+    summary: "&7Dry run complete: &f{warnings}&7 warning(s). Nothing was applied."
+  refresh: "Refreshed &f{players}&7 online players."
+  refresh-disabled: "Runtime is disabled. Use &f/chunkveil enable&7 to start it again."
+
+  disable:
+    already: "Runtime is already disabled."
+    done: "Runtime disabled. Restored &f{players}&7 players and refreshed &f{chunks}&7 chunks."
+
+  enable:
+    already: "Runtime is already enabled."
+    done: "Runtime enabled."
+    failed: "&cRuntime could not be enabled: {reason}"
+    security-trip: "&cCannot re-enable after a security trip. Fix the incompatibility and restart the server; quarantine remains active until then."
+
+  debug:
+    usage: "Usage: &f/chunkveil debug <on|off>"
+    changed: "Debug {state}&7."

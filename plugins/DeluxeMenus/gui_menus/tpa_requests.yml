@@ -1,0 +1,55 @@
+menu_title: '&#00FBFF&lYÊU CẦU DỊCH CHUYỂN (TPA)'
+open_command:
+  - tpalist
+  - tparequests
+register_command: true
+size: 27
+
+items:
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 19, 20, 21, 23, 24, 25, 26]
+    display_name: ' '
+
+  'accept_latest':
+    material: PLAYER_HEAD
+    slot: 11
+    display_name: '&#00FF7F&lĐỒNG Ý YÊU CẦU MỚI NHẤT'
+    lore:
+      - '&7Chấp nhận lời mời TPA / TPAHere'
+      - '&7gần đây nhất gửi tới bạn.'
+      - ''
+      - '&e▶ Click để đồng ý (/tpaccept)'
+    left_click_commands:
+      - '[player] tpaccept'
+      - '[close]'
+    right_click_commands:
+      - '[player] tpaccept'
+      - '[close]'
+
+  'deny_latest':
+    material: REDSTONE
+    slot: 15
+    display_name: '&#FF5555&lTỪ CHỐI YÊU CẦU'
+    lore:
+      - '&7Từ chối lời mời dịch chuyển'
+      - '&7gần đây nhất.'
+      - ''
+      - '&c▶ Click để từ chối (/tpdeny)'
+    left_click_commands:
+      - '[player] tpdeny'
+      - '[close]'
+    right_click_commands:
+      - '[player] tpdeny'
+      - '[close]'
+
+  'back_button':
+    material: BARRIER
+    slot: 22
+    display_name: '&#FF5555&lQUAY LẠI'
+    lore:
+      - '&7Quay lại menu cài đặt.'
+    left_click_commands:
+      - '[openmenu] settings'
+    right_click_commands:
+      - '[openmenu] settings'

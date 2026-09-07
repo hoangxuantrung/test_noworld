@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 14.191.70.46
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1787988241514
+  login: 1787988061859
+money: '0'
+last-account-name: tuanduong000
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.57755823686417
+  y: 27.5
+  z: 251.966140334468
+  yaw: 90.8782958984375
+  pitch: 0.853143036365509
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: -14623.461663672411
+  y: 81.0
+  z: 8002.300000011921
+  yaw: 139.17218017578125
+  pitch: 23.953857421875

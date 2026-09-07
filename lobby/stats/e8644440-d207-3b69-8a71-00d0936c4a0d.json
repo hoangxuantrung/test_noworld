@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:potion": 1,
+      "minecraft:white_banner": 1,
+      "minecraft:red_carpet": 1,
+      "minecraft:cobblestone_stairs": 1
+    },
+    "minecraft:used": {
+      "minecraft:red_carpet": 1
+    },
+    "minecraft:mined": {
+      "minecraft:red_carpet": 1
+    },
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 3,
+      "minecraft:time_since_rest": 87921,
+      "minecraft:walk_one_cm": 255139,
+      "minecraft:leave_game": 27,
+      "minecraft:damage_taken": 990,
+      "minecraft:damage_dealt": 40,
+      "minecraft:play_time": 87921,
+      "minecraft:jump": 1239,
+      "minecraft:time_since_death": 87921,
+      "minecraft:drop": 2,
+      "minecraft:sprint_one_cm": 94069,
+      "minecraft:fall_one_cm": 9186,
+      "minecraft:total_world_time": 87921,
+      "minecraft:fly_one_cm": 455154,
+      "minecraft:walk_on_water_one_cm": 169,
+      "minecraft:crouch_one_cm": 111025,
+      "minecraft:sneak_time": 1585
+    },
+    "minecraft:dropped": {
+      "minecraft:cobblestone_stairs": 1,
+      "minecraft:potion": 1
+    }
+  },
+  "DataVersion": 4671
+}

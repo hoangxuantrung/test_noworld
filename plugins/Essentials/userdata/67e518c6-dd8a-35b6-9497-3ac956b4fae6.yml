@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 14.232.152.63
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1787770989065
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1787856542649
+  login: 1787856498810
+money: '0.0'
+last-account-name: mingoc
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.5
+  y: 28.0
+  z: 304.5
+  yaw: -180.0
+  pitch: 0.0
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 2102.127589626579
+  y: -12.0
+  z: 9587.919042730278
+  yaw: -167.96803283691406
+  pitch: -14.473071098327637

@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: COOKED_BEEF
+  displayname: Doan
+slot: 17

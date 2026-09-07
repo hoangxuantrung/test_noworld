@@ -1,0 +1,66 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:enchanted_golden_apple": 1,
+      "minecraft:stone_bricks": 2,
+      "minecraft:cobblestone": 2,
+      "minecraft:stone_axe": 1,
+      "minecraft:yellow_carpet": 2,
+      "minecraft:white_carpet": 1,
+      "minecraft:white_banner": 1,
+      "minecraft:potion": 1,
+      "minecraft:player_head": 3,
+      "minecraft:red_carpet": 2
+    },
+    "minecraft:used": {
+      "minecraft:golden_apple": 1,
+      "minecraft:stone_sword": 2,
+      "minecraft:yellow_carpet": 2,
+      "minecraft:player_head": 3,
+      "minecraft:red_carpet": 2,
+      "minecraft:potion": 1,
+      "minecraft:white_banner": 1,
+      "minecraft:diamond_sword": 2,
+      "minecraft:stone_pickaxe": 5,
+      "minecraft:written_book": 3,
+      "minecraft:firework_rocket": 2
+    },
+    "minecraft:mined": {
+      "minecraft:stone_bricks": 2,
+      "minecraft:red_carpet": 3,
+      "minecraft:player_head": 2,
+      "minecraft:white_carpet": 1,
+      "minecraft:stone": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3800,
+      "minecraft:walk_one_cm": 37772,
+      "minecraft:leave_game": 1,
+      "minecraft:play_noteblock": 10,
+      "minecraft:damage_taken": 507,
+      "minecraft:play_time": 27583,
+      "minecraft:damage_dealt": 184,
+      "minecraft:jump": 340,
+      "minecraft:time_since_death": 3771,
+      "minecraft:drop": 2,
+      "minecraft:sprint_one_cm": 16859,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 20589,
+      "minecraft:tune_noteblock": 12,
+      "minecraft:total_world_time": 27583,
+      "minecraft:fly_one_cm": 42557,
+      "minecraft:crouch_one_cm": 1367,
+      "minecraft:sneak_time": 564,
+      "minecraft:climb_one_cm": 1456,
+      "minecraft:deaths": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:glass_bottle": 1,
+      "minecraft:stone_axe": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,64 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 42.113.129.193
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788685848751
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788685904304
+  login: 1788679848959
+money: '6190.0'
+last-account-name: tysooon
+lastlocation:
+  world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+  world-name: WORLD_the_end
+  x: 28.388906784456317
+  y: 50.0
+  z: -438.68880587333393
+  yaw: -46.7088623046875
+  pitch: 5.918070316314697
+homes:
+  end:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 1822.3278496860084
+    y: -2.0
+    z: -470.1053000353124
+    yaw: -29.85418701171875
+    pitch: 34.8968620300293
+  farm:
+    world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+    world-name: WORLD_the_end
+    x: 30.301040277182157
+    y: 57.0
+    z: -437.93876952936404
+    yaw: 39.517677307128906
+    pitch: 32.054649353027344
+  home:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: -5018.1870730622195
+    y: 120.0
+    z: -8237.989138652418
+    yaw: -69.71560668945312
+    pitch: 70.08882141113281
+logoutlocation:
+  world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+  world-name: WORLD_the_end
+  x: 25.412559244825303
+  y: 57.0
+  z: -434.78949261926255
+  yaw: -177.85874938964844
+  pitch: 8.644862174987793

@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "279cd81c-7ca2-367d-b3b9-850cbefd72aa",
+    "name": "HydraMC_YTB",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c79d28a6-a227-3c51-94f0-ac784a292103",
+    "name": "TooanTraan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ee5defd3-4cd7-3cee-b5c6-69baf82ee141",
+    "name": "KhangNon",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "94e97750-d289-3f18-8903-cbdafa8e69cf",
+    "name": "Trung1309",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

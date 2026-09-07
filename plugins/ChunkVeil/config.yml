@@ -1,0 +1,258 @@
+# ╔══════════════════════════════════════════════════════════════════════╗
+# ║                       C H U N K V E I L                             ║
+# ║         Packet-level underground protection for Paper servers        ║
+# ╚══════════════════════════════════════════════════════════════════════╝
+#
+# Quick start: enable your worlds below, set hide-below-y to the Y level
+# you want to protect, and restart. Most servers do not need to touch
+# anything else.
+
+# Used for additive upgrades. ChunkVeil adds newly introduced defaults while
+# preserving all values you have explicitly configured.
+config-version: 1
+
+
+# ┌──────────────────────────────────────────────────────────────────────┐
+# │  WORLDS                                                              │
+# └──────────────────────────────────────────────────────────────────────┘
+#
+# Each world is configured independently. Nether and End are included
+# below but disabled by default — their terrain and fake-block choices
+# differ from the overworld, so enable them only if needed.
+
+# Startup confidentiality policy. This only applies while the server is
+# booting. Runtime packet failures quarantine protected traffic but do not
+# stop an already-running server.
+security:
+  # Stop the whole server if ChunkVeil cannot initialize protection during
+  # boot (for example because ProtocolLib is missing or incompatible).
+  stop-server-on-startup-failure: true
+  # QUARANTINE keeps protected packets blocked, KICK_PLAYERS disconnects
+  # players in protected worlds, and STOP_SERVER shuts down cleanly.
+  runtime-trip-action: QUARANTINE
+
+worlds:
+  world:
+    enabled: true
+
+    # Y range that is hidden from clients.
+    # Blocks from min-y up to (not including) hide-below-y are replaced.
+    hide-below-y: 0
+    min-y: -64
+
+    # Block type sent to clients in place of real underground blocks.
+    # Use a solid opaque block that fits the dimension to avoid visual
+    # artefacts. DEEPSLATE blends naturally below y=0 in the overworld.
+    default-fake-block: DEEPSLATE
+
+    # true  = air underground is also faked, hiding cave shapes entirely.
+    #         Stronger protection, but noticeably higher CPU cost.
+    # false = air stays air, only solid blocks are replaced.
+    #         Faster. Cave and tunnel outlines are still visible to clients.
+    hide-air: false
+
+    # Hide underground entities (mobs, minecarts, item frames, etc.)
+    # from other players before they enter the visible zone.
+    hide-entities: true
+
+    # Also hide underground players. Usually false — client-side player
+    # hiding can cause visual glitches for the affected player.
+    hide-players: false
+
+  world_nether:
+    enabled: false
+    hide-below-y: 32
+    min-y: 0
+    default-fake-block: NETHERRACK
+    hide-air: false
+    hide-entities: true
+    hide-players: false
+
+  world_the_end:
+    enabled: false
+    hide-below-y: 0
+    min-y: -64
+    default-fake-block: END_STONE
+    hide-air: false
+    hide-entities: true
+    hide-players: false
+
+
+# ┌──────────────────────────────────────────────────────────────────────┐
+# │  REVEAL SCAN                                                         │
+# └──────────────────────────────────────────────────────────────────────┘
+#
+# ChunkVeil casts rays from the player's eye to determine which
+# underground chunks they can actually see. Chunks that are visible
+# receive real block data; all others receive fake blocks.
+#
+# Ray counts are weighted toward the player's view direction:
+#   front > sides > back
+#
+# More rays = more accurate reveals, higher CPU cost per scan.
+
+view-reveal-front-horizontal-rays: 10
+view-reveal-side-horizontal-rays: 5
+view-reveal-back-horizontal-rays: 3
+view-reveal-vertical-rays: 10
+
+# How many solid occluding blocks a ray may pass through before stopping.
+# 0 = strict line-of-sight. 2 = small buffer to reduce visible pop-in.
+view-reveal-occlusion-grace-blocks: 2
+
+# How often the reveal scan runs per player (milliseconds).
+# Lower = more responsive reveals, higher CPU cost.
+view-reveal-refresh-millis: 150
+
+# ── Advanced reveal tuning ─────────────────────────────────────────────
+# Only change these if you understand the reveal scan behaviour and are
+# seeing specific issues with pop-in or performance.
+
+# Minimum interval between forced full rescans (milliseconds).
+# Acts as a safety net for edge cases like sparse back-facing rays.
+view-reveal-force-refresh-millis: 1200
+
+# Skip a rescan when the player has barely moved or turned since the last
+# scan. Saves CPU when players are standing still or walking slowly.
+view-reveal-move-threshold-blocks: 3.0
+view-reveal-yaw-threshold-degrees: 12.0
+view-reveal-pitch-threshold-degrees: 8.0
+
+
+# ┌──────────────────────────────────────────────────────────────────────┐
+# │  PERFORMANCE                                                         │
+# └──────────────────────────────────────────────────────────────────────┘
+#
+# Work budgets that protect the main server tick from ChunkVeil overhead.
+# Increase limits on small servers for faster reveals; lower them on
+# large servers to keep tick time predictable.
+
+performance:
+  # Chunks hidden by incoming packet rewrites are high-priority work.
+  max-priority-chunk-updates-per-player-per-tick: 24
+  # Regular visibility changes (player movement) are spread over more ticks.
+  max-regular-chunk-updates-per-player-per-tick: 1
+
+  # How often underground entity visibility is rechecked per player.
+  entity-scan-interval-millis: 500
+  entity-scan-max-entities-per-player: 256
+
+  # ── Advanced performance tuning ───────────────────────────────────────
+  # Only change these if you are profiling ChunkVeil's tick cost and know
+  # what each setting does. Wrong values here can hurt performance or
+  # cause missed reveals.
+
+  # Reveal ray directions are cached per yaw bucket to avoid recomputing
+  # vectors every scan. Smaller bucket = slightly more precise, more entries.
+  view-reveal-yaw-cache-bucket-degrees: 5
+
+  # Automatically reduce ray counts when the server is under load.
+  # Protects TPS at the cost of slightly looser reveals during lag spikes.
+  adaptive-scan-quality:
+    enabled: false
+    # Start reducing rays when the 1-minute TPS average drops below this.
+    reduce-rays-below-tps: 18.5
+    # Floor ray counts during maximum lag. Keep all values above zero
+    # to maintain meaningful underground protection.
+    minimum-front-horizontal-rays: 6
+    minimum-side-horizontal-rays: 3
+    minimum-back-horizontal-rays: 1
+    minimum-vertical-rays: 6
+
+
+# ┌──────────────────────────────────────────────────────────────────────┐
+# │  PACKET PROTECTION                                                   │
+# └──────────────────────────────────────────────────────────────────────┘
+#
+# Secondary packet types filtered for hidden underground areas.
+# All options default to true for maximum protection.
+#
+# !! IMPORTANT !!
+# These settings control only what packet data is sent to each client.
+# They do NOT affect the actual server world in any way — explosions
+# still destroy blocks and deal damage, sounds still play for other
+# players nearby, and so on. Only the watching client is affected.
+#
+# Set an option to false only if you want players to see or hear
+# specific effects from hidden underground areas.
+
+packet-protection:
+  # Hides the explosion visual and audio effect on the client when the
+  # explosion center is inside a hidden underground zone.
+  # The explosion still happens on the server (blocks destroyed, damage dealt).
+  cancel-explosions: true
+
+  # Hides block-break particles and their associated sound effect when
+  # they occur at a hidden underground position.
+  # Without this, the exact material of a mined block is encoded in the
+  # effect data and readable by packet-inspection clients.
+  cancel-world-events: true
+
+  # Hides the mining crack animation for blocks at hidden underground
+  # positions. Without this, a nearby player can pinpoint exactly where
+  # someone else is digging underground.
+  cancel-block-crack: true
+
+  # Hides positional sounds (piston clicks, chest open/close, furnace
+  # crackling, etc.) when the sound source is inside a hidden underground
+  # position. Prevents activity inference from block sounds alone.
+  cancel-positional-sounds: true
+
+  # Hides particles originating in concealed underground positions. This
+  # includes vibration particles used by modern sculk sensors and shriekers.
+  cancel-particles: true
+
+  # Hides the legacy dedicated vibration packet on versions that expose it.
+  # Modern versions carry vibrations through the particle packet above.
+  cancel-vibrations: true
+
+  # Replaces block-light and sky-light arrays for fully concealed sections
+  # with darkness. A section crossed by hide-below-y is left intact so light
+  # above the cutoff is not corrupted; use a cutoff aligned to 16 blocks for
+  # the cleanest boundary.
+  sanitize-light: true
+
+
+# ┌──────────────────────────────────────────────────────────────────────┐
+# │  UPDATE CHECKER                                                      │
+# └──────────────────────────────────────────────────────────────────────┘
+#
+# Periodically reads a small version manifest on GitHub and reports newer
+# ChunkVeil releases that declare compatibility with this server's exact
+# Minecraft version. Admins with the chunkveil.update permission get a
+# clickable chat notice on join, and /chunkveil update checks on demand.
+#
+# The checker only reads version metadata. It never downloads or installs
+# anything, runs off the main thread, and never affects the protection
+# runtime.
+
+update-checker:
+  enabled: true
+
+  # Hours between automatic checks. The first check runs shortly after
+  # startup.
+  interval-hours: 6
+
+  # Send the in-game notice to admins on join. Console is always informed.
+  notify-in-game: true
+
+  # Also offer pre-release versions (e.g. 0.4.0-rc.1).
+  include-prereleases: false
+
+  # Manifest describing releases and their supported Minecraft versions.
+  manifest-url: "https://raw.githubusercontent.com/DeKaeyman/ChunkVeil/main/update.json"
+
+
+# ┌──────────────────────────────────────────────────────────────────────┐
+# │  METRICS (bStats)                                                    │
+# └──────────────────────────────────────────────────────────────────────┘
+#
+# Anonymous aggregate usage statistics via bstats.org: server count,
+# player counts, Minecraft/Java versions, and a few ChunkVeil-specific
+# charts (hide-air posture, enabled world count, packet rewrite state).
+#
+# No world data, no player data, and no server address is ever sent.
+# You can also opt out of bStats globally in plugins/bStats/config.yml.
+
+metrics:
+  enabled: true

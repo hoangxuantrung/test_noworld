@@ -1,0 +1,13 @@
+enable: true
+
+# Icon hiển thị ngoài Cửa Hàng Server
+item:
+  material: AMETHYST_SHARD
+  displayname: '&d&lSHARD SHOP'
+slot: 16
+
+# Khai báo loại tiền tệ cho mục này (sử dụng lệnh của Xshards)
+currency:
+  type: COMMAND
+  buy-command: "xshards take %player% %price%"
+  check-balance: "%xshards_balance%"

@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 14.245.54.83
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788006280811
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788006392175
+  login: 1788006056670
+money: '3840.0'
+last-account-name: suclo
+lastlocation:
+  world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+  world-name: WORLD_the_end
+  x: -763.5
+  y: 192.0
+  z: 8753.5
+  yaw: 83.8880615234375
+  pitch: 29.16095733642578
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 9984.30490443354
+  y: 64.0
+  z: -14170.873067218588
+  yaw: 9.730682373046875
+  pitch: 19.045997619628906

@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 104.28.237.73
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1787801201161
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1787801544568
+  login: 1787801064887
+money: '0'
+last-account-name: BuiHoangAnh
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 130.69999998807907
+  y: 126.0
+  z: 186.30000001192093
+  yaw: 99.449951171875
+  pitch: 85.5
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: -6264.048458475527
+  y: 23.0
+  z: 19140.14819150149
+  yaw: 103.94970703125
+  pitch: 26.69998550415039

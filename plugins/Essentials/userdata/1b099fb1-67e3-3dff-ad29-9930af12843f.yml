@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 58.186.121.30
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788395872181
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788395863128
+  login: 1788395859692
+money: '0.0'
+last-account-name: yguy_1
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 61.5
+  y: 28.0
+  z: 305.5
+  yaw: -146.70001220703125
+  pitch: 23.850000381469727
+logoutlocation:
+  world: d52755ba-37e8-417f-9eb9-23dfc6ef0902
+  world-name: WORLD_nether
+  x: 2141.3364908966487
+  y: 191.88983301648423
+  z: 1672.2779120578123
+  yaw: -40.4375
+  pitch: -90.0

@@ -1,0 +1,58 @@
+# Message prefix can be changed in config.yml
+# Restart to apply any changes
+
+no-database-config-error: §cEnter mysql credentials in the mysql.yml config. Restart
+  after to use this plugin!
+sync-success: §7Player data§a successfully§9 synced!
+sync-failed: §cPlayer data could not be synced. Please contact staff or try joining
+  again.
+sync-timeout: §cPlayer sync timed out after 5 seconds. Please try again and contact
+  staff.
+cross-version-deny-kick: §cYour player data contains items that are not supported
+  on this server. Please join a newer server and remove the items first.
+created-data: §7Player data§a successfully §9created
+no-entry-protection-kick: §cNo entry protection enabled.§7 You have no existing player
+  data. You can't join this server before joining the parent server first and receiving
+  your player data. If you think this is an error, please contact server staff.
+
+# Commands
+permission-error: §cInsufficient permission to execute this command
+# Placeholder <all subcommands> -> {subcomands}
+unknown-subcommand-error: '§cUnknown subcommand. Available: §7<{subcommands}>'
+no-subcommand-error: '§cProvide a subcommand. Available: §7<{subcommands}>'
+
+# Clear subcommand
+clear-wrong-usage: §cWrong usage! Use clear <player_name/*>
+clear-player-not-found: §cPlayer not found. §7This player is not known. Deletion failed!
+
+# Sync subcommand
+manual-sync-success: §7All player data was §asucsessfully §7synced
+manual-sync-wrong-usage: §cWrong usage! Use sync <player_name/*>
+manual-sync-player-not-found: §cPlayer not found. §7This player is not known. Sync
+  failed!
+
+# Edit subcommand
+edit-wrong-usage: §cWrong usage! Use edit <player_name/*> <data_type> <values>
+edit-player-not-found: §cPlayer not found in database.
+edit-player-online-other-server: §cPlayer is currently online on another server.
+edit-target-required-player: §cThis data type can only be edited for a specific player.
+edit-console-no-gui: §cOnly players can edit inventory data.
+edit-vault-disabled: §cVault economy module is not enabled.
+edit-invalid-value: '§cInvalid value: {reason}'
+edit-db-error: §cDatabase error. See console.
+edit-pre-sync-timeout: §cPre-edit sync for {player} timed out after 5 seconds. Edit
+  was cancelled.
+edit-pre-sync-failed: §cPre-edit sync for {player} failed. Edit was cancelled.
+edit-success: §7Player data was §asuccessfully§7 updated.
+edit-success-all: §7Data for all players was §asuccessfully§7 updated.
+edit-gui-title: §9Edit {type} for {player}
+edit-usage: '§cUsage: /{command} edit {usage}'
+
+# Update
+update-available: 'A new version of the MySqlPlayerBridge plugin is available! Installed
+  version: {installed}, latest version: {latest}.'
+update-available-prerelease: 'A new PRE-RELEASE version of the MySqlPlayerBridge plugin
+  is available! PRE-RELEASES can include borken feature and cause problem with your
+  system! Installed version: {installed}, latest version: {latest}.'
+download-update: §9Click §c[§5here§c] §9to visit the download page.
+update-check-failed: 'GitHub update check failed or returned invalid data: {reason}'

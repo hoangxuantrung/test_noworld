@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 42.114.191.236
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1787785789844
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1787785795100
+  login: 1787785209455
+money: '100320.0'
+last-account-name: _WightD_
+lastlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 4085.3989835375532
+  y: 62.0
+  z: 13386.315377465518
+  yaw: -11.157051086425781
+  pitch: 14.922736167907715
+logoutlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.01470659897838
+  y: 28.0
+  z: 301.5250347133334
+  yaw: 162.34632873535156
+  pitch: 1.6406749486923218

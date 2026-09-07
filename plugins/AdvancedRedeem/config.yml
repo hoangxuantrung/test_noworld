@@ -1,0 +1,57 @@
+# --------------------------------------------
+#
+#          AdvancedRedeem 3.3.0
+#
+# Thank you for downloading this plugin
+# don't forget to leave a review
+#
+# if you have a suggestion for what could
+# be added, write it to me on discord
+#
+# Plugin Developer: Kijler
+# My website: https://kijler.eu
+# Discord Support: https://discord.gg/sk4QQAU2yv
+#
+# My other plugins:
+# AntiSpam: https://www.spigotmc.org/resources/antispam-1-17-1-21.118730/
+# JoinRules: https://www.spigotmc.org/resources/joinrules.124875
+# ReferralCodes: https://www.spigotmc.org/resources/referralcodes-1-17-1-21.121402
+# Crazy ScoreBoard: https://www.spigotmc.org/resources/crazy-scoreboard-simple-scoreboard.119649
+# Custom Join And Quit: https://www.spigotmc.org/resources/custom-join-and-quit-messages-1-17-1-21.120425
+# WebClicker: https://www.spigotmc.org/resources/webclicker.118103/
+# CustomHelp [DISCONTINUED]: https://www.spigotmc.org/resources/customhelp-1-17-1-20-4.115473/
+#
+# --------------------------------------------
+
+# Placeholders:
+# %player% - Player name
+# %code% - Used code
+# %initial_uses% - Maximum number of uses
+
+language: EN # Language (EN, CZ, DE, FR)
+
+ip_tracking_enabled: false # A maximum of one code usage per given IP address.
+
+automatic-code-deletion: false # Automatic deletion of codes after reaching their maximum usage.
+
+codes:
+  examplecode: # Code
+    uses: 10 # Remaining number of uses
+    initial_uses: 10 # Maximum number of uses - To set the code to unlimited, use the maximum number of uses as "0".
+    commands:
+    - minecraft:give %player% diamond 1
+    - say Thank you for downloading this plugin. I would appreciate a positive review.
+      :)
+  UNSMARTVN:
+    uses: 0
+    initial_uses: 0
+    commands:
+    - eco give %player% 100000
+    - shards give %player% 1000
+  UPDATE_UNSMARTVN_066:
+    uses: 99969
+    initial_uses: 0
+    commands:
+    - eco give %player% 100000
+    - shards give %player% 1000
+    - title %player% title {"text":"§fBạn đã đổi mã thành công!","bold":true}

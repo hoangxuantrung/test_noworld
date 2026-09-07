@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 42.114.103.164
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788192228156
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788192358912
+  login: 1788191336928
+money: '45.0'
+last-account-name: baonam3321
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 283.08717098079876
+  y: 4.0
+  z: 505.8382649966163
+  yaw: -133.9283447265625
+  pitch: -19.955814361572266
+homes:
+  home:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: -6532.754449094426
+    y: -15.0
+    z: 15673.212306231011
+    yaw: -93.98452758789062
+    pitch: 16.61410903930664
+logoutlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 68.87046601139876
+  y: 27.0
+  z: 305.69999998807907
+  yaw: 5.280517578125
+  pitch: 13.08928394317627

@@ -1,0 +1,33 @@
+# Configuration file for CommandCost.
+# The '§' character can be used for colour codes in this file.
+# Message to be displayed when the money has been deducted from the players account.
+command-success-message: '§e $%amount% đã thu thuế thành công :)'
+# Message to be displayed when the user doesn't have enough money.
+command-fail-message: '§c Haha không có tiền :)'
+# Command names should be without the '/' character.
+#
+# Example:
+#  mycommand:
+#    cost: 60
+# Please note that indentations need to be spaces, not tabs! If you are having problems getting your config file to work correctly, try putting it through a YAML parser.
+# An online YAML parser can be found here:
+# http://yaml-online-parser.appspot.com/
+commands:
+  hello:
+    cost: 50
+  rtp world WORLD_nether:
+    cost: 500
+  rtp world WORLD_the_end:
+    cost: 20000
+  rtp world world_nether:
+    cost: 500
+  rtp world world_the_end:
+    cost: 20000
+  betterrtp world WORLD_nether:
+    cost: 500
+  betterrtp world WORLD_the_end:
+    cost: 20000
+  betterrtp world world_nether:
+    cost: 500
+  betterrtp world world_the_end:
+    cost: 20000

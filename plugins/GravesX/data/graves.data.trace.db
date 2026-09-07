@@ -1,0 +1,1562 @@
+2026-08-10 17:15:40.446696+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-10 17:23:53.636396+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-10 17:33:16.609006+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-11 00:35:31.662444+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-11 01:18:26.788916+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-11 01:38:03.375495+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-11 01:43:09.482510+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-11 01:47:28.117928+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-12 02:54:30.329872+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-13 11:57:14.343472+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-13 23:22:00.219671+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-13 23:28:28.793166+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-14 00:33:33.895093+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-15 01:29:18.108955+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-18 14:52:05.367759+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-18 15:10:01.196870+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-18 16:13:02.557661+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-18 16:33:42.931809+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-18 17:35:06.337414+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-18 17:41:52.589411+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-20 16:19:01.819617+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-20 23:57:22.171870+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-21 01:12:13.665315+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-21 19:32:39.693183+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-21 19:51:26.984383+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-21 20:01:40.089123+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-21 20:03:11.675922+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-21 20:16:15.334402+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-21 20:40:22.091573+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-23 02:09:27.822827+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-23 02:36:40.242666+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-23 02:41:46.445010+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-23 02:47:14.505388+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-23 03:15:28.749666+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-23 03:26:38.301403+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-26 23:25:23.988303+07:00 database: close
+com.ranull.graves.libraries.h2.message.DbException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: com.ranull.graves.libraries.h2.jdbc.JdbcSQLNonTransientException: (Message 90028 not found) [90028-240]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: com.ranull.graves.libraries.h2.mvstore.MVStoreException: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error. [2.4.240/3]
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1048)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.compactStore(FileStore.java:891)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.closeStore(MVStore.java:803)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.close(MVStore.java:763)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:348)
+	... 6 more
+Caused by: java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1894)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:1044)
+	... 13 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 22 more
+2026-08-26 23:41:05.613166+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-26 23:46:06.280725+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-26 23:52:50.235416+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-26 23:55:47.148827+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-27 00:01:10.316103+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-27 00:17:59.310253+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-27 00:40:04.097916+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-27 01:07:46.513719+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-08-27 01:10:03.936503+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more
+2026-09-06 16:11:54.740790+07:00 database: could not close the database
+java.lang.IllegalStateException: The plugin classloader for GravesX has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:487)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:212)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.mvstore.db.Store.close(Store.java:352)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1314)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.closeImpl(Database.java:1276)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.close(Database.java:1195)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.Database.onShutdown(Database.java:1180)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at GravesX-2026.4.9.1.jar//com.ranull.graves.libraries.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223)
+	... 13 more

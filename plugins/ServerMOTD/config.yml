@@ -1,0 +1,25 @@
+# ServerMOTD – example config
+randomize: true
+center: true
+
+motds:
+  # - "&aWelcome %player% to &f<rainbow>ServerMOTD</rainbow>\n&7Online: %online%/%max%"
+  # - "<gradient:#FF0000:#00FF00>Gradient MOTD</gradient>\n&#00AAFFDiscord: discord.gg/YourInvite"
+  # - "&bHello %player%!\n&eEnjoy your stay!"
+  # - "[1.21.11] CHÀO MỪNG ĐẾN VỚI UMSMARTVN" 
+  - "§7»»» §aUNSMART§cVN§b.COM §7«««\n§eCHÀO MỪNG ĐẾN VỚI §aUNSMART§cVN §f(1.21.11) &b[BETA TEST]"
+
+# Used when there is no player context (server list ping)
+player-placeholder-default: "Guest"
+
+# Center tuning (affects server list MOTD rendering)
+center-settings:
+  mode: "each"
+  target-px: 122       # try 118, 120, 122, 124 until perfect
+  left-offset-px: 0    # small nudge: positive moves right, negative left
+
+  # Optional per-line pixel nudges (after centering). Index is 1-based.
+  # Positive = nudge right, Negative = nudge left.
+  line-offsets:
+    1: 0
+    2: 1

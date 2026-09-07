@@ -1,0 +1,9 @@
+spawns:
+  default:
+    world: d93febcf-3078-4e10-85c5-649e5d830265
+    world-name: surlob
+    x: 62.5
+    y: 28.0
+    z: 304.5
+    yaw: -180
+    pitch: 0

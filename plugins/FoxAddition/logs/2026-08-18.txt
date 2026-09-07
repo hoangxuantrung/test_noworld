@@ -1,0 +1,18 @@
+[2026-08-18 14:33:03] 
+[2026-08-18 14:33:03] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2026-08-18 14:51:01] 
+[2026-08-18 14:51:01] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2026-08-18 14:53:10] 
+[2026-08-18 14:53:10] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2026-08-18 15:07:35] 
+[2026-08-18 15:07:35] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2026-08-18 15:14:48] 
+[2026-08-18 15:14:48] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2026-08-18 16:25:12] 
+[2026-08-18 16:25:12] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2026-08-18 16:50:05] 
+[2026-08-18 16:50:05] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2026-08-18 17:36:02] 
+[2026-08-18 17:36:02] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0
+[2026-08-18 20:22:30] 
+[2026-08-18 20:22:30] [STARTUP] Starting server with 1.21.11-132-c5eb079 (MC: 1.21.11) [1.21.11-R0.1-SNAPSHOT] in FoxAddition v1.2.0

@@ -1,0 +1,32 @@
+location: surlob:68.500:31.500:291.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: TOP 10 CÀY CUỐC
+    height: 0.3
+  - content: '%playerstats_top:1,total_world_time%'
+    height: 0.3
+  - content: '%playerstats_top:2,total_world_time%'
+    height: 0.3 
+  - content: '%playerstats_top:3,total_world_time%'
+    height: 0.3
+  - content: '%playerstats_top:4,total_world_time%'
+    height: 0.3
+  - content: '%playerstats_top:5,total_world_time%'
+    height: 0.3 
+  - content: '%playerstats_top:6,total_world_time%'
+    height: 0.3
+  - content: '%playerstats_top:7,total_world_time%'
+    height: 0.3
+  - content: '%playerstats_top:8,total_world_time%'
+    height: 0.3 
+  - content: '%playerstats_top:9,total_world_time%'
+    height: 0.3
+  - content: '%playerstats_top:10,total_world_time%'
+    height: 0.3
+  actions: {}

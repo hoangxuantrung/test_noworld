@@ -1,0 +1,52 @@
+prefix: '&5&lUnsmartVN &r&l>>> &7'
+no-permission: '&cYou do not have permission to do this.'
+only-players: '&cOnly players can use this command.'
+reload-success: '&aConfiguration reloaded successfully!'
+usage-ecsee: '&cUsage: /ecsee <player> [page]'
+usage-ecshare: '&cUsage: /ecshare <player> [page]'
+player-never-played: '&cPlayer {player} has never played on this server.'
+player-not-found: '&cPlayer not found.'
+chest-loaded: '&aEnder Chest of &e{player} &aloaded.'
+chest-empty: '&7Ender Chest of {player} is empty or being created.'
+chest-saved: '&aEnder Chest saved.'
+chest-locked: '&cThis Ender Chest is currently open on another server!'
+max-size-warning: '&eMaximum size is 6 rows.'
+size-reduced-online: '&cSize reduced. {count} items were dropped.'
+size-reduced-offline: '&cSize reduced. {count} items were DELETED (Player offline).'
+error-fetch: '&cError loading data.'
+already-viewing: '&cYou are already viewing this chest.'
+open-cooldown: '&cPlease wait &f{seconds}s &cbefore opening your EnderChest again.'
+
+# Migration
+migration-started: '&eMigration started: {from} -> {to}. Please wait...'
+migration-finished: '&aMigration finished! {count} profiles moved.'
+migration-failed: '&cMigration failed! Check console.'
+migration-usage: '&cUsage: /ec migrate <to-db|to-file|from-vec>'
+migration-vec-start: '&eStarting import from VariableEnderChests...'
+migration-vec-not-found: '&cVariableEnderChests plugin not found! It must be installed.'
+
+# Invite System
+invite-usage: '&cUsage: /ec invite <player> | /ec invite <all|number> <player> | /ec uninvite <player> | /ec invitelist'
+invite-added: '&aYou have invited &e{player} &ato your Ender Chest.'
+invite-removed: '&cYou have removed &e{player} &afrom your Ender Chest.'
+invite-list: '&aPlayers with access to your EC: &7{list}'
+invite-no-access: '&cYou have not been invited to this Ender Chest.'
+invite-already: '&cThis player is already invited.'
+invite-not-invited: '&cThis player was not invited.'
+self-interact: '&cYou cannot invite yourself.'
+share-not-invited: '&cYou do not have access to {player}''s EnderChest.'
+
+# Team System
+team-no-team: '&cYou are not in a Vanilla Minecraft Team (/team).'
+team-disabled: '&cTeam EnderChests are disabled.'
+team-title: '&dTeam: &5{team}'
+
+no-access: '&cYou are not allowed to use an Ender Chest.'
+vanilla-bypass: '&cYou are configured to use the vanilla Ender Chest. Command features are disabled.'
+
+update:
+  header: "&6========================================"
+  outdated: "&eEnderChest is outdated!"
+  current-version: "&eYour Version: &c{current}"
+  new-version: "&eNewest Version: &a{new}"
+  download: "&eDownload here: &b{url}"

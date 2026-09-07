@@ -1,0 +1,64 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 171.227.251.53
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788263004403
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788268221997
+  login: 1788259187211
+money: '67751.80000000000'
+last-account-name: HappyBoiz2009
+lastlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 29753.434953598262
+  y: 63.0
+  z: 18684.198486432244
+  yaw: 29.244049072265625
+  pitch: 9.599996566772461
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 29691.337492323873
+  y: 85.0
+  z: 18734.623169729803
+  yaw: 94.858642578125
+  pitch: 8.849996566772461
+homes:
+  end:
+    world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+    world-name: WORLD_the_end
+    x: 6389.843033650047
+    y: 61.0
+    z: 2273.094795217869
+    yaw: -102.359375
+    pitch: 10.050000190734863
+  bas:
+    world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+    world-name: WORLD_the_end
+    x: -769.0296232227887
+    y: 192.0
+    z: 8752.882270493345
+    yaw: -149.49505615234375
+    pitch: 32.54997634887695
+  base:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 29713.00110883535
+    y: 91.0
+    z: 18735.63551831562
+    yaw: 91.3443603515625
+    pitch: 8.999993324279785

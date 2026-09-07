@@ -1,0 +1,30 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: COOKED_BEEF
+        buy: 50.0
+      '2':
+        material: COOKED_PORKCHOP
+        buy: 50.0
+      '3':
+        material: COOKED_MUTTON
+        buy: 50.0
+      '4':
+        material: COOKED_CHICKEN
+        buy: 50.0
+      '5':
+        material: COOKED_RABBIT
+        buy: 50.0
+      '6':
+        material: BAKED_POTATO
+        buy: 20.0
+      '7':
+        material: BREAD
+        buy: 20.0
+      '8':
+        material: COOKED_COD
+        buy: 20.0
+      '9':
+        material: GOLDEN_CARROT
+        buy: 100.0

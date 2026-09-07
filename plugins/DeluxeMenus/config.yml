@@ -1,0 +1,23 @@
+# DeluxeMenus 1.14.1-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/helpchat-plugins/deluxemenus
+
+check_updates: true
+debug: LOW
+use_admin_commands_in_menus_list: false
+menus_list_page_size: 10
+metas_list_page_size: 15
+gui_menus:
+  online_players:
+    file: online_players.yml
+  player_stats:
+    file: player_stats.yml
+  rtp_menu:
+    file: rtp_menu.yml
+  settings:
+    file: settings.yml
+  tpa_requests:
+    file: tpa_requests.yml
+  vaults:
+    file: vaults.yml

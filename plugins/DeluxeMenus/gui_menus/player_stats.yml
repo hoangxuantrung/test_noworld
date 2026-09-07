@@ -1,0 +1,77 @@
+menu_title: '&#FFD700&lTHỐNG KÊ CHI TIẾT'
+open_command: stats
+register_command: true
+size: 36
+
+items:
+  'filler_black':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 28, 29, 30, 32, 33, 34, 35]
+    display_name: ' '
+
+  'filler_gray':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: [11, 15, 19, 21, 22, 23, 25]
+    display_name: ' '
+
+  'player_head':
+    material: PLAYER_HEAD
+    slot: 13
+    priority: 1
+    update: true
+    head: '%player_name%'
+    display_name: '&#00FF7F&lNGƯỜI CHƠI: &f%player_name%'
+    lore:
+      - '&7&m---------------------------'
+      - '&7Cấp độ / Rank: &#00FBFF%vault_group%'
+      - '&7Thời gian chơi: &e%statistic_time_played%'
+      - '&7Trạng thái: &aĐang Hoạt Động'
+      - '&7&m---------------------------'
+
+  'money_stats':
+    material: GOLD_INGOT
+    slot: 10
+    display_name: '&#FFD700&lTÀI CHÍNH & THỊNH VƯỢNG'
+    lore:
+      - '&7&m---------------------------'
+      - '&7Tài khoản hiện có: &a$%vault_eco_balance_formatted%'
+      - '&7&m---------------------------'
+
+  'movement_stats':
+    material: LEATHER_BOOTS
+    slot: 12
+    display_name: '&#00FBFF&lDI CHUYỂN & KHÁM PHÁ'
+    lore:
+      - '&7&m---------------------------'
+      - '&7Quãng đường đi bộ: &f%statistic_walk_one_cm% cm'
+      - '&7Quãng đường bay: &f%statistic_fly_one_cm% cm'
+      - '&7&m---------------------------'
+
+  'pvp_stats':
+    material: DIAMOND_SWORD
+    slot: 14
+    display_name: '&#FF3333&lCHỈ SỐ CHIẾN ĐẤU (PVP)'
+    lore:
+      - '&7&m---------------------------'
+      - '&7Số mạng đã diệt: &a%statistic_player_kills% Kills'
+      - '&7Số lần hy sinh: &c%statistic_deaths% Deaths'
+      - '&7&m---------------------------'
+
+  'pve_stats':
+    material: DIAMOND_PICKAXE
+    slot: 16
+    display_name: '&#FF00FF&lLAO ĐỘNG & PVE'
+    lore:
+      - '&7&m---------------------------'
+      - '&7Số khối đã khai thác: &f%statistic_mine_block%'
+      - '&7Quái vật đã tiêu diệt: &f%statistic_mob_kills%'
+      - '&7&m---------------------------'
+
+  'back_button':
+    material: BARRIER
+    slot: 31
+    display_name: '&c&lQUAY LẠI'
+    left_click_commands:
+      - '[openmenu] online_players'
+    right_click_commands:
+      - '[openmenu] online_players'

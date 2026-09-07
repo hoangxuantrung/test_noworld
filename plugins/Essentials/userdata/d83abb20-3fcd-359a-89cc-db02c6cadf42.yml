@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 14.191.135.142
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788355243467
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788576773984
+  login: 1788576759836
+money: '1696800.0'
+last-account-name: popkits
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.5
+  y: 28.0
+  z: 304.5
+  yaw: -180.0
+  pitch: 0.0
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 10913.300000011921
+  y: 129.0
+  z: -9531.631803306544
+  yaw: -159.59121704101562
+  pitch: 31.683395385742188

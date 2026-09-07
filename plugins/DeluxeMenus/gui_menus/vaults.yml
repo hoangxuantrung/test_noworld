@@ -1,0 +1,356 @@
+menu_title: '&8Kho Đồ Cá Nhân'
+open_command:
+  - vault
+  - vaults
+  - pv
+  - kho
+size: 9
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open
+      deny_commands:
+        - "[message] &cBạn không có quyền mở menu này!"
+
+items:
+  # ================= VAULT 1 (MIỄN PHÍ) =================
+  'Vault_1':
+    material: BARREL
+    slot: 0
+    display_name: "&e&lKHO ĐỒ 1"
+    lore:
+      - "&7Mở kho đồ số 1"
+      - "&a&lMIỄN PHÍ"
+    click_commands:
+      - '[player] axvault 1'
+      - '[close]'
+
+  # ================= VAULT 2 (10,000$) =================
+  'Vault_2_Unlocked':
+    material: BARREL
+    slot: 1
+    priority: 1
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: axvaults.vault.2
+    display_name: "&e&lKHO ĐỒ 2"
+    lore:
+      - "&7Mở kho đồ số 2"
+      - "&a&lĐÃ SỞ HỮU"
+    click_commands:
+      - '[player] axvault 2'
+      - '[close]'
+
+  'Vault_2_Locked':
+    material: BARRIER
+    slot: 1
+    priority: 2
+    display_name: "&c&lKHO ĐỒ 2 &7(Khóa)"
+    lore:
+      - "&7Mở khóa vĩnh viễn Kho đồ số 2"
+      - "&eGiá: &a10,000$"
+      - "&b[Nhấp để mua]"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 10000
+      deny_commands:
+        - '[message] &cBạn không đủ 10,000$ để mở khóa Kho đồ 2!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 10000'
+      - '[console] lp user %player_name% permission set axvaults.vault.2'
+      - '[message] &a&lThành công! &fBạn đã mở khóa &eKho đồ 2&f.'
+      - '[close]'
+
+  # ================= VAULT 3 (25,000$) =================
+  'Vault_3_Unlocked':
+    material: BARREL
+    slot: 2
+    priority: 1
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: axvaults.vault.3
+    display_name: "&e&lKHO ĐỒ 3"
+    lore:
+      - "&7Mở kho đồ số 3"
+      - "&a&lĐÃ SỞ HỮU"
+    click_commands:
+      - '[player] axvault 3'
+      - '[close]'
+
+  'Vault_3_Locked':
+    material: BARRIER
+    slot: 2
+    priority: 2
+    display_name: "&c&lKHO ĐỒ 3 &7(Khóa)"
+    lore:
+      - "&7Mở khóa vĩnh viễn Kho đồ số 3"
+      - "&eGiá: &a25,000$"
+      - "&b[Nhấp để mua]"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 25000
+      deny_commands:
+        - '[message] &cBạn không đủ 25,000$ để mở khóa Kho đồ 3!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 25000'
+      - '[console] lp user %player_name% permission set axvaults.vault.3'
+      - '[message] &a&lThành công! &fBạn đã mở khóa &eKho đồ 3&f.'
+      - '[close]'
+
+  # ================= VAULT 4 (50,000$) =================
+  'Vault_4_Unlocked':
+    material: BARREL
+    slot: 3
+    priority: 1
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: axvaults.vault.4
+    display_name: "&e&lKHO ĐỒ 4"
+    lore:
+      - "&7Mở kho đồ số 4"
+      - "&a&lĐÃ SỞ HỮU"
+    click_commands:
+      - '[player] axvault 4'
+      - '[close]'
+
+  'Vault_4_Locked':
+    material: BARRIER
+    slot: 3
+    priority: 2
+    display_name: "&c&lKHO ĐỒ 4 &7(Khóa)"
+    lore:
+      - "&7Mở khóa vĩnh viễn Kho đồ số 4"
+      - "&eGiá: &a50,000$"
+      - "&b[Nhấp để mua]"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 50000
+      deny_commands:
+        - '[message] &cBạn không đủ 50,000$ để mở khóa Kho đồ 4!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 50000'
+      - '[console] lp user %player_name% permission set axvaults.vault.4'
+      - '[message] &a&lThành công! &fBạn đã mở khóa &eKho đồ 4&f.'
+      - '[close]'
+
+  # ================= VAULT 5 (100,000$) =================
+  'Vault_5_Unlocked':
+    material: BARREL
+    slot: 4
+    priority: 1
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: axvaults.vault.5
+    display_name: "&e&lKHO ĐỒ 5"
+    lore:
+      - "&7Mở kho đồ số 5"
+      - "&a&lĐÃ SỞ HỮU"
+    click_commands:
+      - '[player] axvault 5'
+      - '[close]'
+
+  'Vault_5_Locked':
+    material: BARRIER
+    slot: 4
+    priority: 2
+    display_name: "&c&lKHO ĐỒ 5 &7(Khóa)"
+    lore:
+      - "&7Mở khóa vĩnh viễn Kho đồ số 5"
+      - "&eGiá: &a100,000$"
+      - "&b[Nhấp để mua]"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 100000
+      deny_commands:
+        - '[message] &cBạn không đủ 100,000$ để mở khóa Kho đồ 5!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 100000'
+      - '[console] lp user %player_name% permission set axvaults.vault.5'
+      - '[message] &a&lThành công! &fBạn đã mở khóa &eKho đồ 5&f.'
+      - '[close]'
+
+  # ================= VAULT 6 (200,000$) =================
+  'Vault_6_Unlocked':
+    material: BARREL
+    slot: 5
+    priority: 1
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: axvaults.vault.6
+    display_name: "&e&lKHO ĐỒ 6"
+    lore:
+      - "&7Mở kho đồ số 6"
+      - "&a&lĐÃ SỞ HỮU"
+    click_commands:
+      - '[player] axvault 6'
+      - '[close]'
+
+  'Vault_6_Locked':
+    material: BARRIER
+    slot: 5
+    priority: 2
+    display_name: "&c&lKHO ĐỒ 6 &7(Khóa)"
+    lore:
+      - "&7Mở khóa vĩnh viễn Kho đồ số 6"
+      - "&eGiá: &a200,000$"
+      - "&b[Nhấp để mua]"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 200000
+      deny_commands:
+        - '[message] &cBạn không đủ 200,000$ để mở khóa Kho đồ 6!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 200000'
+      - '[console] lp user %player_name% permission set axvaults.vault.6'
+      - '[message] &a&lThành công! &fBạn đã mở khóa &eKho đồ 6&f.'
+      - '[close]'
+
+  # ================= VAULT 7 (350,000$) =================
+  'Vault_7_Unlocked':
+    material: BARREL
+    slot: 6
+    priority: 1
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: axvaults.vault.7
+    display_name: "&e&lKHO ĐỒ 7"
+    lore:
+      - "&7Mở kho đồ số 7"
+      - "&a&lĐÃ SỞ HỮU"
+    click_commands:
+      - '[player] axvault 7'
+      - '[close]'
+
+  'Vault_7_Locked':
+    material: BARRIER
+    slot: 6
+    priority: 2
+    display_name: "&c&lKHO ĐỒ 7 &7(Khóa)"
+    lore:
+      - "&7Mở khóa vĩnh viễn Kho đồ số 7"
+      - "&eGiá: &a350,000$"
+      - "&b[Nhấp để mua]"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 350000
+      deny_commands:
+        - '[message] &cBạn không đủ 350,000$ để mở khóa Kho đồ 7!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 350000'
+      - '[console] lp user %player_name% permission set axvaults.vault.7'
+      - '[message] &a&lThành công! &fBạn đã mở khóa &eKho đồ 7&f.'
+      - '[close]'
+
+  # ================= VAULT 8 (500,000$) =================
+  'Vault_8_Unlocked':
+    material: BARREL
+    slot: 7
+    priority: 1
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: axvaults.vault.8
+    display_name: "&e&lKHO ĐỒ 8"
+    lore:
+      - "&7Mở kho đồ số 8"
+      - "&a&lĐÃ SỞ HỮU"
+    click_commands:
+      - '[player] axvault 8'
+      - '[close]'
+
+  'Vault_8_Locked':
+    material: BARRIER
+    slot: 7
+    priority: 2
+    display_name: "&c&lKHO ĐỒ 8 &7(Khóa)"
+    lore:
+      - "&7Mở khóa vĩnh viễn Kho đồ số 8"
+      - "&eGiá: &a500,000$"
+      - "&b[Nhấp để mua]"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 500000
+      deny_commands:
+        - '[message] &cBạn không đủ 500,000$ để mở khóa Kho đồ 8!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 500000'
+      - '[console] lp user %player_name% permission set axvaults.vault.8'
+      - '[message] &a&lThành công! &fBạn đã mở khóa &eKho đồ 8&f.'
+      - '[close]'
+
+  # ================= VAULT 9 (1,000,000$) =================
+  'Vault_9_Unlocked':
+    material: BARREL
+    slot: 8
+    priority: 1
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: axvaults.vault.9
+    display_name: "&e&lKHO ĐỒ 9"
+    lore:
+      - "&7Mở kho đồ số 9"
+      - "&a&lĐÃ SỞ HỮU"
+    click_commands:
+      - '[player] axvault 9'
+      - '[close]'
+
+  'Vault_9_Locked':
+    material: BARRIER
+    slot: 8
+    priority: 2
+    display_name: "&c&lKHO ĐỒ 9 &7(Khóa)"
+    lore:
+      - "&7Mở khóa vĩnh viễn Kho đồ số 9"
+      - "&eGiá: &a1,000,000$"
+      - "&b[Nhấp để mua]"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 1000000
+      deny_commands:
+        - '[message] &cBạn không đủ 1,000,000$ để mở khóa Kho đồ 9!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 1000000'
+      - '[console] lp user %player_name% permission set axvaults.vault.9'
+      - '[message] &a&lThành công! &fBạn đã mở khóa &eKho đồ 9&f.'
+      - '[close]'

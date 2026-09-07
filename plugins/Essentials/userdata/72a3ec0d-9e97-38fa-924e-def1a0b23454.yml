@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 104.28.205.73
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1787839314013
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1787839980156
+  login: 1787839250867
+money: '0'
+last-account-name: NguyenMinhAnh
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 58.67009260528937
+  y: 27.0
+  z: 317.29929819851424
+  yaw: 15.450042724609375
+  pitch: 72.29999542236328
+logoutlocation:
+  world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+  world-name: WORLD_the_end
+  x: 22.494577026339506
+  y: 57.0
+  z: 351.3863290978076
+  yaw: 91.9481201171875
+  pitch: 46.19997787475586

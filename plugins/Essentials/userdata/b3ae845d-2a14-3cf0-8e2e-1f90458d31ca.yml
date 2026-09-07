@@ -1,0 +1,72 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 58.186.121.30
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788396767539
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788410887124
+  login: 1788410292685
+money: '445.0'
+last-account-name: Newbie123
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.5
+  y: 28.0
+  z: 304.5
+  yaw: -180.0
+  pitch: 0.0
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 17194.2166889556
+  y: 86.0625
+  z: 14025.066968373425
+  yaw: 49.962867736816406
+  pitch: 21.415599822998047
+homes:
+  home:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 17193.938841945634
+    y: 86.0625
+    z: 14026.578596873918
+    yaw: 121.81625366210938
+    pitch: 38.733314514160156
+  gadiant:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 17153.315719364917
+    y: 162.0
+    z: 13392.300000011921
+    yaw: -151.2872314453125
+    pitch: 50.42795181274414
+  tam:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: -12162.74225687169
+    y: 69.0
+    z: -9182.04372451295
+    yaw: 125.6755599975586
+    pitch: 26.162702560424805
+  roof:
+    world: d52755ba-37e8-417f-9eb9-23dfc6ef0902
+    world-name: WORLD_nether
+    x: 2139.7128583243193
+    y: 128.0
+    z: 1770.1183003028113
+    yaw: 92.49813079833984
+    pitch: 46.70587921142578

@@ -1,0 +1,72 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 113.187.177.62
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788622248826
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788615569529
+  login: 1788615565402
+money: '1114194.9990000000'
+last-account-name: HydraMC_YTB
+lastlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 8095.686037106669
+  y: -46.0
+  z: 5163.699999988079
+  yaw: 134.095703125
+  pitch: 32.17353820800781
+logoutlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.5
+  y: 28.0
+  z: 304.5
+  yaw: -180.0
+  pitch: 0.0
+homes:
+  senfifai:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 29794.640874692006
+    y: 70.0
+    z: 18693.87170410553
+    yaw: 158.79673767089844
+    pitch: 23.40555191040039
+  hydra:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 29073.99625726957
+    y: 54.0
+    z: 18383.937559358026
+    yaw: -102.27264404296875
+    pitch: 20.446165084838867
+  baseadmin:
+    world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+    world-name: WORLD_the_end
+    x: 24750.737344588717
+    y: 45.5
+    z: 24659.817453968208
+    yaw: 171.22409057617188
+    pitch: 58.9497184753418
+  shento:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 28890.67190762084
+    y: 180.0
+    z: 18749.090545787698
+    yaw: 158.6414794921875
+    pitch: 17.785730361938477

@@ -1,0 +1,5 @@
+refresh_baltop_task:
+  command: /baltop force
+  executortype: CONSOLE
+  delay: 0
+  interval: 60

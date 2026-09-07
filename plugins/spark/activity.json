@@ -1,0 +1,51 @@
+[
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1787844215857,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/I67USwwCff"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Trung1309",
+      "uniqueId": "94e97750-d289-3f18-8903-cbdafa8e69cf"
+    },
+    "time": 1787432052315,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1vV2seJlwx"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1787426221026,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/BR6A5bBuZW"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1785421096820,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/dvPQYGk7DF"
+    }
+  }
+]

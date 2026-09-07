@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: GUNPOWDER
+  displayname: Mobs
+slot: 14

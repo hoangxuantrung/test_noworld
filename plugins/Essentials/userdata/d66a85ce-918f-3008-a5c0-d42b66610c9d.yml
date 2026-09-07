@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 14.248.237.137
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788429379770
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788430530069
+  login: 1788427236027
+money: '465120.0'
+last-account-name: TamXoan
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.5
+  y: 28.0
+  z: 304.5
+  yaw: -177.60003662109375
+  pitch: 2.5500004291534424
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 2851.807574226499
+  y: 64.0
+  z: 19136.680789510712
+  yaw: -97.0439453125
+  pitch: 18.743152618408203
+homes:
+  home:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 2870.407296454209
+    y: 68.0
+    z: 19117.385113386285
+    yaw: 169.61376953125
+    pitch: 30.00002670288086

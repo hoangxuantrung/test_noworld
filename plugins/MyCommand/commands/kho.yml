@@ -1,0 +1,15 @@
+kho_command_alias:
+  command: /kho
+  type: RUN_COMMAND
+  runcmd:
+    - $Script$%if%$arg1==null
+    - /openvaultgui
+    - $Script$%else%
+    - /vault $arg1
+  permission-required: false
+
+pv_command_alias:
+  command: /pv
+  type: ALIAS
+  alias: /kho
+  permission-required: false

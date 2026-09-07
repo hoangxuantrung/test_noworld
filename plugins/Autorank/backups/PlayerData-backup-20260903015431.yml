@@ -1,0 +1,752 @@
+94e97750-d289-3f18-8903-cbdafa8e69cf:
+  exempt leaderboard: true
+  exempted from checking: false
+  exempted from time addition: true
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+279cd81c-7ca2-367d-b3b9-850cbefd72aa:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+ee5defd3-4cd7-3cee-b5c6-69baf82ee141:
+  exempt leaderboard: true
+  exempted from checking: false
+  exempted from time addition: true
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+989b89fc-2719-342c-9567-86154ff92119:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+67e518c6-dd8a-35b6-9497-3ac956b4fae6:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787770861544
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+09563b06-d5ba-3c10-b3d2-b6c0fed354ae:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+7579f8f7-1ffa-3ca8-a073-847a88fc069f:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+e8644440-d207-3b69-8a71-00d0936c4a0d:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+a60ede30-01a2-3fd0-b8f7-6afa29802e3c:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+78e95224-377e-3447-b815-1024238e6d4e:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+1e681088-d821-3ca1-aafe-e2efc8366e46:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+aa2332bf-ae4e-31d4-893a-43c8494957a1:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+20cc9943-33d5-36c8-9566-848948600622:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+3882e3a2-831e-3c9f-9e33-48cb9a5b3482:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808086430
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+fadf384c-7aa5-36d0-ab7f-190c3d3b5798:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808209006
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+c8d817fd-4a21-3ec6-b3ee-e243002a8544:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808326180
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+161a6e11-f7f4-31a9-94f0-7c012a36f226:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808431161
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+e93a7bd4-7e43-3e13-bb18-5ccf9491bc10:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808521343
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+815784d8-62ae-3678-a834-9504ba59b571:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808615587
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+6103e205-ba6e-39bf-88fc-df89e6438013:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808709195
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+813f7c3f-5c5a-3ffa-af27-ed26650c2435:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808808580
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+7fd8e654-79be-3dbe-966b-68b943577b10:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787808909247
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+0301bc8e-4d78-38ad-886b-4aba3b429863:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787809027059
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+76641cfc-28f7-3ad5-9924-094c1152bd8c:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+58626942-382b-3e9e-bf38-a5e400b50478:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+62be3db5-4ed9-3153-926f-4ddb1018892f:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+3598fd69-c3f4-3534-9c13-ef3a6211ddd1:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+72a3ec0d-9e97-38fa-924e-def1a0b23454:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787839250875
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+6ff30a92-d2d9-3ede-97fe-22a6c78301eb:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787840072012
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+d367efa4-dd24-3460-9a62-fa053c87b7b6:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787842154303
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+2fb1a7e5-017f-3107-9068-e04de637cf74:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+ea9d278f-c4b0-335e-a0e1-217cfc115102:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787843054253
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+3362e0d4-7436-3cbf-bbe0-161dfda626a8:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787843219800
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+1e11c41e-744b-3a74-819a-72fb86080d50:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787843383850
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+545f0ae1-79df-3eb3-a486-908474eb275d:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787843626703
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+d83abb20-3fcd-359a-89cc-db02c6cadf42:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+f1f02152-4871-3be9-8dee-ee7d1ad0de65:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+1b099fb1-67e3-3dff-ad29-9930af12843f:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787921736950
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+7774b10c-47b1-3f7a-98b0-a98425240f39:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+d68833ff-b42b-3aad-9435-f80af9bafc0a:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787929560702
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+89d0ab7e-8901-38c3-800f-787ef27f1bf6:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+3298a2d9-d5df-3a2a-b6e9-938c6252f70d:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1787988061879
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+0c13cae7-a6f7-3cb7-925f-754e4acd7d7f:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788006056679
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+f2c984ef-5873-30e1-af82-0621c6b2eaa6:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788006904768
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+996dade6-b142-3edb-8016-4672aad1d47f:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788010562539
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+63781aa9-076f-3e4b-ae72-cbb64ae34051:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788053856490
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+63a8faed-785e-33be-b037-4c7fb480274e:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788087402748
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+8d517170-297b-3689-b22c-1e5e2efe3638:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788098553055
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+b3ae845d-2a14-3cf0-8e2e-1f90458d31ca:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788104805346
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+4eda537f-dd17-344e-8b6c-10e466607822:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+2afeeebc-f1e4-3a42-994d-4dbae61fbf8c:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788150174934
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+7223869e-90df-3be1-9bcb-be97664e62a2:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788165372356
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+f7c17cbc-d716-3cc2-93c7-1c599df89573:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+d62f906b-e628-3cbf-afa6-fe01ee24c470:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788180543979
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+f110745a-6304-35ac-881a-fca1033b12a9:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+9279d43c-1a62-3198-b772-853bccd7a2d4:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+d66a85ce-918f-3008-a5c0-d42b66610c9d:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788274190184
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+0998f968-2ab5-34fe-9189-356af27c27b0:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths: {}
+fe798653-6820-3155-a1d7-257e95e16756:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788344167792
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+ef077687-ebec-3e8d-8fed-2107690e0a69:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths: {}
+  completed paths:
+    nonvl-test1:
+      completed: 1
+      completed at: 1788357509522
+  progress on paths:
+    nonvl-test1:
+      completed requirements:
+      - 0
+      completed prerequisites: []

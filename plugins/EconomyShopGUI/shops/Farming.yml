@@ -1,0 +1,77 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: SUGAR_CANE
+        buy: 20.0
+        sell: 10.0
+      '2':
+        material: NETHER_WART
+        buy: 150.0
+        sell: 50.0
+      '3':
+        material: BEETROOT
+        buy: 150.0
+        sell: 100.0
+      '4':
+        material: WHEAT
+        buy: 10.0
+        sell: 5.0
+      '5':
+        material: CARROT
+        buy: 10.0
+        sell: 5.0
+      '6':
+        material: POTATO
+        buy: 10.0
+        sell: 5.0
+      '7':
+        material: SWEET_BERRIES
+        buy: 20.0
+        sell: 10.0
+      '8':
+        material: GLOW_BERRIES
+        buy: 30.0
+        sell: 10.0
+      '9':
+        material: MELON_SLICE
+        buy: 20.0
+        sell: 5.0
+      '10':
+        material: MELON
+        buy: 50.0
+        sell: 20.0
+      '11':
+        material: PUMPKIN
+        buy: 50.0
+        sell: 20.0
+      '12':
+        material: CACTUS
+        buy: 50.0
+        sell: 20.0
+      '13':
+        material: VINE
+        buy: 50.0
+      '14':
+        material: TWISTING_VINES
+        buy: 50.0
+      '15':
+        material: WEEPING_VINES
+        buy: 50.0
+      '16':
+        material: LILY_PAD
+        buy: 50.0
+        sell: 20.0
+      '17':
+        material: BIG_DRIPLEAF
+        buy: 50.0
+        sell: 10.0
+      '18':
+        material: KELP
+        buy: 30.0
+        sell: 15.0
+      '19':
+        material: BAMBOO
+        displayname: BAMBOO
+        buy: 30.0
+        sell: 10.0

@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 42.115.114.31
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788266418224
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788267695728
+  login: 1788265973645
+money: '61600.0'
+last-account-name: Trung1309
+lastlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 17269.53461418732
+  y: 73.49804458856683
+  z: 14117.14847110381
+  yaw: 89.40365600585938
+  pitch: 20.326967239379883
+logoutlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 54.08478959032001
+  y: 28.0
+  z: 304.7697501048158
+  yaw: -176.06243896484375
+  pitch: 29.587739944458008

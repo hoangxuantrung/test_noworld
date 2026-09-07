@@ -1,0 +1,31 @@
+# This is the internal properties file of Autorank. 
+# You should not touch any values here, unless instructed by a developer.
+# Autorank uses these to keep track of certain aspects of the plugin.
+
+leaderboard last updated: 0
+tracked month: 9
+tracked week: 37
+tracked day: 7
+has converted uuids: true
+leaderboards:
+  daily_time:
+    cached leaderboard:
+    - '-------- Leaderboard (Daily time) --------'
+    - '------------------------------------'
+    last updated: 1788627854193
+  weekly_time:
+    cached leaderboard:
+    - '-------- Leaderboard (Weekly time) --------'
+    - '------------------------------------'
+    last updated: 1788627854200
+  monthly_time:
+    cached leaderboard:
+    - '-------- Leaderboard (Monthly time) --------'
+    - '------------------------------------'
+    last updated: 1788196049042
+  total_time:
+    cached leaderboard:
+    - '-------- Leaderboard (All time) --------'
+    - '------------------------------------'
+    last updated: 1787767968254
+is converted to new format: true

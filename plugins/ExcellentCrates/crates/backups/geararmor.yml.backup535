@@ -1,0 +1,35 @@
+Name: Geararmor Crate
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Geararmor Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:tooltip_display":{hidden_components:["minecraft:use_effects","minecraft:block_entity_data","minecraft:max_damage","minecraft:banner_patterns","minecraft:can_place_on","minecraft:base_color","minecraft:block_state","minecraft:zombie_nautilus/variant","minecraft:fireworks","minecraft:repair_cost","minecraft:damage_resistant","minecraft:damage","minecraft:llama/variant","minecraft:damage_type","minecraft:parrot/variant","minecraft:food","minecraft:consumable","minecraft:cat/collar","minecraft:blocks_attacks","minecraft:salmon/size","minecraft:axolotl/variant","minecraft:equippable","minecraft:debug_stick_state","minecraft:ominous_bottle_amplifier","minecraft:glider","minecraft:bundle_contents","minecraft:cow/variant","minecraft:enchantments","minecraft:pig/variant","minecraft:tropical_fish/base_color","minecraft:enchantment_glint_override","minecraft:unbreakable","minecraft:repairable","minecraft:chicken/variant","minecraft:wolf/variant","minecraft:use_remainder","minecraft:entity_data","minecraft:writable_book_content","minecraft:attack_range","minecraft:tropical_fish/pattern","minecraft:provides_banner_patterns","minecraft:sheep/color","minecraft:map_id","minecraft:container","minecraft:wolf/sound_variant","minecraft:map_decorations","minecraft:dyed_color","minecraft:suspicious_stew_effects","minecraft:trim","minecraft:cat/variant","minecraft:lodestone_tracker","minecraft:swing_animation","minecraft:bees","minecraft:weapon","minecraft:enchantable","minecraft:rarity","minecraft:map_color","minecraft:profile","minecraft:bucket_entity_data","minecraft:written_book_content","minecraft:instrument","minecraft:villager/variant","minecraft:pot_decorations","minecraft:painting/variant","minecraft:horse/variant","minecraft:provides_trim_material","minecraft:attribute_modifiers","minecraft:tool","minecraft:note_block_sound","minecraft:intangible_projectile","minecraft:wolf/collar","minecraft:stored_enchantments","minecraft:map_post_processing","minecraft:piercing_weapon","minecraft:jukebox_playable","minecraft:kinetic_weapon","minecraft:max_stack_size","minecraft:potion_contents","minecraft:fox/variant","minecraft:can_break","minecraft:frog/variant","minecraft:lock","minecraft:use_cooldown","minecraft:creative_slot_lock","minecraft:minimum_attack_charge","minecraft:shulker/color","minecraft:container_loot","minecraft:recipes","minecraft:break_sound","minecraft:charged_projectiles","minecraft:firework_explosion","minecraft:mooshroom/variant","minecraft:potion_duration_scale","minecraft:death_protection","minecraft:rabbit/variant","minecraft:custom_data","minecraft:tropical_fish/pattern_color"]}},count:1,id:"minecraft:chest"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: default
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimits:
+  Amount: 0
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Enabled: false
+    Model: helix
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false

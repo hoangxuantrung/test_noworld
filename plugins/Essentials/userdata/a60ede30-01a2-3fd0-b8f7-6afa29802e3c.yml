@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 117.5.153.175
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788677528526
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788680498254
+  login: 1788673191897
+money: '145542.0'
+last-account-name: hanhyort
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.37641930662073
+  y: 28.0
+  z: 303.81861230379354
+  yaw: -180.0
+  pitch: 0.0
+homes:
+  home:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 6710.25719621973
+    y: 67.0
+    z: 7590.6813199077715
+    yaw: -37.1280517578125
+    pitch: 41.4821891784668
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 6709.988056609787
+  y: 67.0
+  z: 7582.67065180686
+  yaw: 64.484375
+  pitch: 4.480709075927734

@@ -1,0 +1,7 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: SHULKER_BOX
+        buy: 2000.0
+        sell: 0.0

@@ -1,0 +1,15 @@
+Economy:
+  Enabled: true
+  Price: 0
+
+Hunger:
+  Enabled: false
+  Honches: 4
+
+CustomWorlds:
+  Enabled: true
+  Prices:
+    surlob: 0
+    WORLD: 0
+    WORLD_nether: 500
+    WORLD_the_end: 20000

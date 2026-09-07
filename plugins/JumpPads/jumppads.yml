@@ -1,0 +1,13 @@
+JumpPads:
+  lobby, 195, 148, 151:
+    owners:
+    - 94e97750-d289-3f18-8903-cbdafa8e69cf
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 21.7
+    angle: 25.0
+  surlob, 62, 27, 292:
+    owners:
+    - 94e97750-d289-3f18-8903-cbdafa8e69cf
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 26.7
+    angle: 25

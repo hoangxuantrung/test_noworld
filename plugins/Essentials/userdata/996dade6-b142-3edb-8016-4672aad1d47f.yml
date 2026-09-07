@@ -1,0 +1,56 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 116.111.187.79
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788092805525
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788099054289
+  login: 1788097087487
+money: '91980.0'
+last-account-name: Rtex_MC
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.5
+  y: 28.0
+  z: 304.5
+  yaw: -180.0
+  pitch: 0.0
+homes:
+  home:
+    world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+    world-name: WORLD_the_end
+    x: 21.18335768703378
+    y: 57.0
+    z: -435.81120653447874
+    yaw: -169.2854461669922
+    pitch: 9.749959945678711
+  base:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 15481.22932521082
+    y: -28.0
+    z: 6283.912032821071
+    yaw: -6.247034549713135
+    pitch: 73.1518325805664
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 15479.178120482347
+  y: -26.0
+  z: 6283.534224449133
+  yaw: 153.03131103515625
+  pitch: 29.604833602905273

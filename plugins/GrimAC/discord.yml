@@ -1,0 +1,27 @@
+# For help with webhooks: https://support.discord.com/hc/en-us/articles/228383668
+
+enabled: true
+webhook: "https://discord.com/api/webhooks/1537513817817358446/cVfNoAfHqk6AJpHNF-uwJcEoRpp7AxSSph6i0tYMxJECcNZ8GwBTO2IjA9uySQ_df6LX"
+# Set to true to bypass Discord's webhook URL format validation.
+# This allows any valid HTTPS URL (useful for proxies or Matrix forwarders).
+disable-webhook-validation: true
+embed-title: "**Grim Alert**"
+embed-color: "#00FFFF"
+include-timestamp: true
+# Replaces backticks in values (like client brands) so they don't break Discord's text formatting.
+# Set to "`" to disable this replacement.
+backtick-replacement-char: "ˋ" # Defaults to U+02CB
+violation-content:
+    - "**Player**: `%player%`"
+    - "**Check**: %check%"
+    - "**Violations**: %violations%"
+    - "**Client Version**: %version%"
+    - "**Brand**: `%brand%`"
+    - "**Ping**: %ping%"
+    - "**TPS**: %tps%"
+    - "**World**: %player_world%"
+    - "**Location**: X: %player_x% Y: %player_y% Z: %player_z%"
+
+# Schema markers — see header comment in config.yml.
+config-flavor: V2
+config-version: 1

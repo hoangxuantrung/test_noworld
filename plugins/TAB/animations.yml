@@ -1,0 +1,102 @@
+# =========================================================
+#                   TAB ANIMATIONS CONFIG
+# =========================================================
+
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3------------'
+    - '&3-&d-&3-----------'
+    - '&3--&d-&3----------'
+    - '&3---&d-&3---------'
+    - '&3----&d-&3--------'
+    - '&3-----&d-&3-------'
+    - '&3------&d-&3------'
+    - '&3-------&d-&3-----'
+    - '&3--------&d-&3----'
+    - '&3---------&d-&3---'
+    - '&3----------&d-&3--'
+    - '&3-----------&d-&3-'
+    - '&3------------&d-'
+    - '&3-----------&d-&3-'
+    - '&3----------&d-&3--'
+    - '&3---------&d-&3---'
+    - '&3--------&d-&3----'
+    - '&3-------&d-&3-----'
+    - '&3------&d-&3------'
+    - '&3-----&d-&3-------'
+    - '&3----&d-&3--------'
+    - '&3---&d-&3---------'
+    - '&3--&d-&3----------'
+    - '&3-&d-&3-----------'
+    - '&d-&3------------'
+
+ServerName:
+  change-interval: 300
+  texts:
+    - '&c&lServerName'
+    - '&c&n&lServerName'
+    - '&b&lServerName'
+    - '&b&n&lServerName'
+    - '&e&lServerName'
+    - '&e&n&lServerName'
+
+web:
+  change-interval: 200
+  texts:
+    - '&9discord.gg/EJdvS2j9uT'
+
+vote:
+  change-interval: 1000
+  texts:
+    - '&avote.domain.com'
+    - '&a&nvote.domain.com'
+    - '&5vote.domain.com'
+    - '&5&nvote.domain.com'
+
+Welcome:
+  change-interval: 400
+  texts:
+    - '&7&lW '
+    - '&7&lW_'
+    - '&7&lWe_'
+    - '&7&lWel_'
+    - '&7&lWelc_'
+    - '&7&lWelco_'
+    - '&7&lWelcom_'
+    - '&7&lWelcome_'
+    - '&7&lWelcome_'
+    - '&7&lWelcome_'
+    - '&7&lWelcome_'
+    - '&7&lWelcom_'
+    - '&7&lWelco_'
+    - '&7&lWelc_'
+    - '&7&lWel_'
+    - '&7&lWe_'
+    - '&7&lW_'
+    - '&7&lW '
+
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW
+
+# Hiệu ứng Rainbow RGB dải sóng cực mượt cho UNSMARTVN.COM
+sbsvname:
+  change-interval: 100
+  texts:
+    - "&c&lU&6&lN&e&lS&a&lM&b&lA&3&lR&d&lT&c&lV&6&lN&e&l.&a&lC&b&lO&d&lM"
+    - "&d&lU&c&lN&6&lS&e&lM&a&lA&b&lR&3&lT&d&lV&c&lN&6&l.&e&lC&a&lO&b&lM"
+    - "&b&lU&d&lN&c&lS&6&lM&e&lA&a&lR&b&lT&d&lV&c&lN&6&l.&e&lC&a&lO&d&lM"
+    - "&a&lU&b&lN&d&lS&c&lM&6&lA&e&lR&a&lT&b&lV&d&lN&c&l.&6&lC&e&lO&a&lM"
+    - "&e&lU&a&lN&b&lS&d&lM&c&lA&6&lR&e&lT&a&lV&b&lN&d&l.&c&lC&6&lO&e&lM"
+    - "&6&lU&e&lN&a&lS&b&lM&d&lA&c&lR&6&lT&e&lV&a&lN&b&l.&d&lC&c&lO&6&lM"

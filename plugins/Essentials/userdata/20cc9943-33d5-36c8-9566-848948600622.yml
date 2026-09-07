@@ -1,0 +1,72 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 211.19.76.182
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1787897548159
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1787897865312
+  login: 1787897833871
+money: '38985.0'
+last-account-name: Kixnz
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.5
+  y: 28.0
+  z: 304.5
+  yaw: -180.0
+  pitch: 0.0
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: -6699.411810535592
+  y: 95.0
+  z: -15645.760947630479
+  yaw: 111.90595245361328
+  pitch: 12.737309455871582
+homes:
+  mud:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 16247.096722097078
+    y: 66.0
+    z: -9810.456360086191
+    yaw: -1.91046142578125
+    pitch: 19.819692611694336
+  nether:
+    world: d52755ba-37e8-417f-9eb9-23dfc6ef0902
+    world-name: WORLD_nether
+    x: -18796.5
+    y: 75.0
+    z: -9418.5
+    yaw: 21.98138427734375
+    pitch: 36.237972259521484
+  farm:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: -6225.736324481993
+    y: 210.0
+    z: -15500.631037119716
+    yaw: -95.11624908447266
+    pitch: 81.20065307617188
+  end:
+    world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+    world-name: WORLD_the_end
+    x: -2915.0946656192223
+    y: 69.0
+    z: 964.3609396919877
+    yaw: 86.48100280761719
+    pitch: 31.08722496032715

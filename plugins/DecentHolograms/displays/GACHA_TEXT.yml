@@ -1,0 +1,60 @@
+type: TEXT
+location:
+  world: surlob
+  x: 76
+  y: 33
+  z: 317
+  yaw: -44.4219970703125
+  pitch: 25.885005950927734
+settings:
+  enabled: true
+  display-range: 256.0
+  update-interval: 20
+attributes:
+  shadow-strength:
+    value-type: float
+    value: 1.0
+  line-width:
+    value-type: integer
+    value: 300
+  shadow-radius:
+    value-type: float
+    value: 0.0
+  scale:
+    value-type: vector3f
+    value:
+      x: 20.0
+      y: 20.0
+      z: 20.0
+  billboard:
+    value-type: billboard_constraints
+    value: CENTER
+  background-color:
+    value-type: rgba
+    value:
+      red: 0
+      green: 0
+      blue: 0
+      alpha: 64
+  text-shadow:
+    value-type: boolean
+    value: false
+  translation:
+    value-type: vector3f
+    value:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  see-through:
+    value-type: boolean
+    value: false
+  alignment:
+    value-type: text_alignment
+    value: CENTER
+  text-opacity:
+    value-type: integer
+    value: 255
+pages:
+- lines:
+  - ""
+                        

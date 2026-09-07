@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 42.114.212.61
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788329025109
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788615899975
+  login: 1788614832461
+money: '314805.0'
+last-account-name: badluck_7th9
+lastlocation:
+  world: d93febcf-3078-4e10-85c5-649e5d830265
+  world-name: surlob
+  x: 62.15119570164483
+  y: 28.74918707874468
+  z: 309.8107254758051
+  yaw: 162.60028076171875
+  pitch: 21.300012588500977
+logoutlocation:
+  world: 2ab491db-dfa4-4817-89b3-58b6d3638d7c
+  world-name: WORLD_the_end
+  x: -629.0406695722904
+  y: 59.0
+  z: 3015.7967856394453
+  yaw: 19.365875244140625
+  pitch: 29.400007247924805

@@ -1,0 +1,26 @@
+messages:
+  prefix: §6AdvancedRedeem §8» §f
+  usage: §e/advancedredeem (create/delete) (code) (number of uses) (commands)
+  usage_create: §e/advancedredeem create (code) (number of uses) (commands)
+  usage_delete: §e/advancedredeem delete (code)
+  usage_redeem: §e/redeem (code)
+  usage_reset: §e/advancedredeem reset (player) (code)
+  usage_reload: §e/advancedredeem reload
+  usage_list: §e/advancedredeem list
+  code_created: §aCode %code% has been successfully created!
+  code_deleted: §aCode %code% has been successfully deleted!
+  plugin_reloaded: §aPlugin has been successfully reloaded!
+  code_redeemed: §aYou have used code %code% and received your reward!
+  code_already_used: §cYou have already used this code!
+  ip_already_used: §cThis code has already been used on this IP address!
+  code_max_uses: §cThis code has reached the maximum number of uses!
+  code_invalid: §cInvalid code!
+  player_only: §cThis command can only be used by a player!
+  no_permission: §cYou do not have sufficient permissions!
+  available_codes: '§aAvailable codes:'
+  no_codes: §cNo codes are available!
+  player_not_found: §cPlayer %player% was not found!
+  code_reset: §aCode %code% has been successfully reset for player %player%!
+  player_not_used_code: §cPlayer %player% has not used this code %code% yet!
+  code_list_header: '§eList of codes:'
+  code_list_item: '§aCode %code%: §7(%used%/%initial_uses%)'

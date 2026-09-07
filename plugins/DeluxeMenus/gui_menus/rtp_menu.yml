@@ -1,0 +1,91 @@
+menu_title: '&8Dịch chuyển ngẫu nhiên'
+open_command:
+  - rtp_menu
+  - rtp-menu
+  - rtp
+size: 27
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &cBạn không có quyền mở menu này!"
+
+items:
+  # ================= THẾ GIỚI CHÍNH =================
+  'World_Free':
+    material: GRASS_BLOCK
+    slot: 11
+    display_name: "&2Thế giới chính"
+    lore:
+      - "&7Dịch chuyển đến thế giới chính"
+      - "&eChi phí: &aMiễn phí"
+    click_commands:
+      - '[player] betterrtp world WORLD'
+      - '[close]'
+
+  # ================= ĐỊA NGỤC (NETHER) =================
+  # Nút 1: Dành cho người ĐANG ĐỨNG Ở NETHER (Miễn phí 0$)
+  'Nether_Free':
+    material: NETHERRACK
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        in_nether:
+          type: string equals
+          input: '%player_world%'
+          output: 'WORLD_nether'
+    display_name: "&4Địa ngục"
+    lore:
+      - "&7Dịch chuyển ngẫu nhiên trong Địa ngục"
+      - "&eChi phí: &aMiễn phí &7(Đang ở Nether)"
+    click_commands:
+      - '[console] rtp player %player_name% WORLD_nether'
+      - '[close]'
+
+  # Nút 2: Dành cho người ĐANG Ở THẾ GIỚI KHÁC (Mất 500$)
+  'Nether_Paid':
+    material: NETHERRACK
+    slot: 13
+    priority: 2
+    display_name: "&4Địa ngục"
+    lore:
+      - "&7Dịch chuyển đến Địa ngục"
+      - "&eChi phí: &a5,000$"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 5000
+      deny_commands:
+        - '[message] &cBạn không đủ 5,000$ để dịch chuyển sang Địa ngục!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 500'
+      - '[player] betterrtp world WORLD_nether'
+      - '[close]'
+
+  # ================= TẬN CÙNG (THE END) =================
+  # Luôn tính phí 20,000$ cho dù đang đứng ở bất kỳ đâu (kể cả trong End)
+  'End_Paid':
+    material: END_STONE
+    slot: 15
+    display_name: "&fTận cùng"
+    lore:
+      - "&7Dịch chuyển đến Tận cùng"
+      - "&eChi phí: &a200,000$"
+    click_requirement:
+      requirements:
+        has_money:
+          type: has money
+          amount: 20000
+      deny_commands:
+        - '[message] &cBạn không đủ 200,000$ để dịch chuyển sang Tận cùng!'
+        - '[close]'
+    click_commands:
+      - '[console] eco take %player_name% 200000'
+      - '[console] rtp player %player_name% WORLD_the_end'
+      - '[close]'

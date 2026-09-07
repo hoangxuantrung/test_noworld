@@ -1,0 +1,113 @@
+menu_title: '&#FFAA00&lCÀI ĐẶT CÁ NHÂN'
+open_command:
+  - settings
+  - setting
+  - caidat
+  - menu-settings
+register_command: true
+size: 27
+
+items:
+  # --- VIỀN TRANG TRÍ ---
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '
+
+  # --- ITEM 1: BẬT / TẮT NHẬN TPA ---
+  'tpa_toggle':
+    material: ENDER_PEARL
+    slot: 10
+    display_name: '&#00FBFF&lNHẬN LỜI MỜI TPA'
+    lore:
+      - '&7Cho phép hoặc chặn người khác gửi'
+      - '&7yêu cầu dịch chuyển đến bạn.'
+      - ''
+      - '&e▶ Nhấn vào đây để Bật / Tắt'
+    left_click_commands:
+      - '[console] tptoggle %player_name%'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] tptoggle %player_name%'
+      - '[refresh]'
+
+  # --- ITEM 2: TỰ ĐỘNG CHẤP NHẬN TPA ---
+  'tpauto_toggle':
+    material: CLOCK
+    slot: 12
+    display_name: '&#FF55FF&lTỰ ĐỘNG ĐỒNG Ý TPA'
+    lore:
+      - '&7Tự động chấp nhận tất cả yêu cầu'
+      - '&7dịch chuyển gửi tới bạn ngay lập tức.'
+      - ''
+      - '&e▶ Nhấn vào đây để Bật / Tắt'
+    left_click_commands:
+      - '[console] tpauto %player_name%'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] tpauto %player_name%'
+      - '[refresh]'
+
+  # --- ITEM 3: BẬT / TẮT NHẬN TIỀN (PAY) ---
+  'pay_toggle':
+    material: GOLD_INGOT
+    slot: 14
+    display_name: '&#FFD700&lNHẬN TIỀN TỪ NGƯỜI KHÁC'
+    lore:
+      - '&7Bật hoặc tắt khả năng nhận tiền'
+      - '&7từ lệnh &e/pay&7 của người chơi khác.'
+      - ''
+      - '&e▶ Nhấn vào đây để Bật / Tắt'
+    left_click_commands:
+      - '[console] paytoggle %player_name%'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] paytoggle %player_name%'
+      - '[refresh]'
+
+# --- ITEM 4: DANH SÁCH YÊU CẦU TPA ---
+  'tpa_list':
+    material: PLAYER_HEAD
+    slot: 16
+    display_name: '&#55FF55&lDANH SÁCH LỜI MỜI TPA'
+    lore:
+      - '&7Mở bảng quản lý và đồng ý'
+      - '&7yêu cầu dịch chuyển từ người khác.'
+      - ''
+      - '&e▶ Nhấn vào đây để xem'
+    left_click_commands:
+      - '[player] tpalist'
+    right_click_commands:
+      - '[player] tpalist'
+
+  # --- NÚT ĐÓNG MENU ---
+  'close_button':
+    material: BARRIER
+    slot: 22
+    display_name: '&#FF5555&lĐÓNG MENU'
+    lore:
+      - '&7Nhấn để thoát bảng cài đặt.'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'

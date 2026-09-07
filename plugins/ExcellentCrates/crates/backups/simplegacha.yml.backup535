@@ -1,0 +1,35 @@
+Name: Simplegacha Crate
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Simplegacha Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:tooltip_display":{hidden_components:["minecraft:shulker/color","minecraft:container_loot","minecraft:horse/variant","minecraft:suspicious_stew_effects","minecraft:minimum_attack_charge","minecraft:wolf/variant","minecraft:writable_book_content","minecraft:enchantments","minecraft:creative_slot_lock","minecraft:salmon/size","minecraft:instrument","minecraft:sheep/color","minecraft:can_break","minecraft:custom_data","minecraft:damage","minecraft:painting/variant","minecraft:zombie_nautilus/variant","minecraft:unbreakable","minecraft:glider","minecraft:recipes","minecraft:weapon","minecraft:enchantment_glint_override","minecraft:fireworks","minecraft:lock","minecraft:block_state","minecraft:base_color","minecraft:block_entity_data","minecraft:intangible_projectile","minecraft:provides_trim_material","minecraft:blocks_attacks","minecraft:kinetic_weapon","minecraft:can_place_on","minecraft:firework_explosion","minecraft:ominous_bottle_amplifier","minecraft:dyed_color","minecraft:llama/variant","minecraft:profile","minecraft:food","minecraft:equippable","minecraft:use_effects","minecraft:swing_animation","minecraft:axolotl/variant","minecraft:break_sound","minecraft:bees","minecraft:potion_duration_scale","minecraft:bundle_contents","minecraft:provides_banner_patterns","minecraft:pig/variant","minecraft:frog/variant","minecraft:use_remainder","minecraft:max_damage","minecraft:attack_range","minecraft:potion_contents","minecraft:jukebox_playable","minecraft:map_color","minecraft:damage_resistant","minecraft:fox/variant","minecraft:enchantable","minecraft:repairable","minecraft:death_protection","minecraft:chicken/variant","minecraft:use_cooldown","minecraft:rabbit/variant","minecraft:wolf/collar","minecraft:tropical_fish/base_color","minecraft:villager/variant","minecraft:stored_enchantments","minecraft:attribute_modifiers","minecraft:lodestone_tracker","minecraft:mooshroom/variant","minecraft:consumable","minecraft:max_stack_size","minecraft:banner_patterns","minecraft:bucket_entity_data","minecraft:rarity","minecraft:cow/variant","minecraft:map_decorations","minecraft:wolf/sound_variant","minecraft:charged_projectiles","minecraft:trim","minecraft:written_book_content","minecraft:damage_type","minecraft:note_block_sound","minecraft:map_id","minecraft:cat/variant","minecraft:container","minecraft:repair_cost","minecraft:cat/collar","minecraft:debug_stick_state","minecraft:map_post_processing","minecraft:tropical_fish/pattern_color","minecraft:piercing_weapon","minecraft:tool","minecraft:tropical_fish/pattern","minecraft:pot_decorations","minecraft:parrot/variant","minecraft:entity_data"]}},count:1,id:"minecraft:chest"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: default
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimits:
+  Amount: 0
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Enabled: false
+    Model: helix
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false

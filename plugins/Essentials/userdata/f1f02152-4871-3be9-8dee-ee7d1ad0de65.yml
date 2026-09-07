@@ -1,0 +1,72 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 115.76.176.167
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788668547670
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788669341149
+  login: 1788663846279
+money: '1431285.0'
+last-account-name: MinhAnh_112
+lastlocation:
+  world: d52755ba-37e8-417f-9eb9-23dfc6ef0902
+  world-name: WORLD_nether
+  x: 1822.5
+  y: 208.5
+  z: -3070.5
+  yaw: -54.2205696105957
+  pitch: 27.000041961669922
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: -8972.699999988079
+  y: 68.0
+  z: 17069.30000001192
+  yaw: -55.70751953125
+  pitch: -85.50000762939453
+homes:
+  park:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: -12377.983754637771
+    y: 102.0
+    z: -9339.658653329507
+    yaw: -89.9365234375
+    pitch: 27.150264739990234
+  me:
+    world: d52755ba-37e8-417f-9eb9-23dfc6ef0902
+    world-name: WORLD_nether
+    x: 1822.1540832941782
+    y: 208.0
+    z: -3070.107068108873
+    yaw: -123.9705810546875
+    pitch: 32.550045013427734
+  farm:
+    world: d52755ba-37e8-417f-9eb9-23dfc6ef0902
+    world-name: WORLD_nether
+    x: -15879.477313352458
+    y: 238.0
+    z: -13294.294691390638
+    yaw: -172.4267578125
+    pitch: 78.00000762939453
+  dan:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: -8954.458126944219
+    y: 71.0
+    z: 17083.61066204849
+    yaw: 109.5927734375
+    pitch: 23.70000648498535

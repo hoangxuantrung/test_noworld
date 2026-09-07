@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: END_CRYSTAL
+  displayname: PVP
+slot: 15

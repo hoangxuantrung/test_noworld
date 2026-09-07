@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 113.187.177.62
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1788620016325
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1788620066489
+  login: 1788618876127
+money: '0'
+last-account-name: TooanTraan
+lastlocation:
+  world: d52755ba-37e8-417f-9eb9-23dfc6ef0902
+  world-name: WORLD_nether
+  x: 1825.533843745161
+  y: 209.62492539813235
+  z: -3063.424833221837
+  yaw: 121.24064636230469
+  pitch: 26.41874885559082
+homes:
+  cc:
+    world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+    world-name: WORLD
+    x: 28889.623094228857
+    y: 180.0625
+    z: 18750.966402079343
+    yaw: 141.9775390625
+    pitch: 6.249466419219971
+logoutlocation:
+  world: 5795a7b2-f9c6-4c66-b29c-67a948a2e57c
+  world-name: WORLD
+  x: 28883.838660890506
+  y: 180.0
+  z: 18746.85696028732
+  yaw: 11.591935157775879
+  pitch: 30.887168884277344
